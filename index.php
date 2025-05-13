@@ -19,11 +19,25 @@ require "settings/init.php";
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/18ba232400.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-<h1>Det virker 🥳</h1>
+<div class="container"></div>
+
+<?php
+include 'includes/navbar.php';
+?>
+<div class="container-fluid banner m-0 p-0 d-flex justify-content-center align-items-center overflow-hidden">
+    <video autoplay muted loop class="videobg w-100 object-fit-cover position-absolute top-0 bottom-0 z-0">
+        <source src="video/herovideoph.mp4" type="video/mp4">
+    </video>
+    <div class="tekst1 d-flex justify-content-center align-items-center flex-wrap flex-column h-100 z-2 position-relative">
+        <div><h1 class="custom-text bannertext text-center">FEAR <br> NOTHING</h1></div>
+        <div><a class="fa-solid fa-chevron-down fa-beat-fade fa-2xl text-center text-primary fs-1 p-3" href="#scrollspyNext"></a></div>
+    </div>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
