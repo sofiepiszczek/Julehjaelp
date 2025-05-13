@@ -1,5 +1,7 @@
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "../node_modules/bootstrap/scss/functions";
+@import url("https://use.typekit.net/bgk1pno.css");
+@import url("https://use.typekit.net/bgk1pno.css");
 
 // 2. Include any default variable overrides here
 $link-decoration: none;
@@ -11,6 +13,10 @@ $link-decoration: none;
 // 4. Include any default map overrides here
 $custom-colors: (
 	"farve": $cyan-400,
+	"darkgreen": #004032,
+	"yellow": #ffd300,
+	"red": #ff0000,
+	"white": #ffffff,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -18,3 +24,15 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+
+h1,h2,h3{
+	font-family: "roboto-condensed", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-transform: uppercase;
+}
+p{
+	font-family: instrument-serif, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
