@@ -35,7 +35,7 @@ require "settings/init.php";
         include 'includes/navbar.php';
         ?>
     </div>
-    <div class=" col-12 tekst1 d-flex justify-content-center align-items-center flex-wrap flex-column h-100 z-2 position-relative">
+    <div class=" col-12 tekst1 d-flex justify-content-center align-items-center flex-wrap flex-column h-100 z-1 position-relative">
         <div><h1 class="text-yellow text-center">Vi har indsamlet</h1></div>
         <div><a class="fa-solid fa-chevron-down fa-beat-fade fa-2xl text-center text-yellow fs-1 p-3" href="#scrollspyNext"></a></div>
     </div>
