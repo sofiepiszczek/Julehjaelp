@@ -8,16 +8,19 @@
 
             <div class="offcanvas offcanvas-end bg-darkgreen" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasRightLabel"><img src="../images/lillelogogulgns.png" class="img-fluid w-50" alt="Lille logo"></h5>
-                    <button type="button" class="btn-close text-yellow" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <h2 class="offcanvas-title text-white" id="offcanvasRightLabel">JULEHJÆLP</h2>
+                    <button type="button" class="btn-close btn-yellow" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-                <div class="offcanvas-body text-white text text-end fs-3">
-                    <a href="" class="text-decoration-none p-4 text-white">Giv et bidrag</a> <br>
-                    <a href="" class="text-decoration-none p-4 text-white">Hvad er julehjælp?</a> <br>
-                    <a href="" class="text-decoration-none p-4 text-white">Årets børnebog</a> <br>
-                    <a href="" class="text-decoration-none p-4 text-white">Om os</a> <br>
-                    <a href="" class="text-decoration-none p-4 text-white">Kontakt</a>
-                </div>
+                <nav class="offcanvas-body text-white text-end fs-3">
+                    <ul class="list-unstyled h3">
+                        <li><a href="" class="text-decoration-none p-4 text-white d-inline-block">Giv et bidrag</a></li>
+                        <li><a href="" class="text-decoration-none p-4 text-white d-inline-block">Hvad er julehjælp?</a></li>
+                        <li><a href="" class="text-decoration-none p-4 text-white d-inline-block">Årets børnebog</a></li>
+                        <li><a href="" class="text-decoration-none p-4 text-white d-inline-block">Om os</a></li>
+                        <li><a href="" class="text-decoration-none p-4 text-white d-inline-block">Kontakt</a></li>
+                    </ul>
+                </nav>
+
             </div>
         </div>
     </div>

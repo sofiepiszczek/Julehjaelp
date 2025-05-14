@@ -40,6 +40,20 @@ require "settings/init.php";
         <div><a class="fa-solid fa-chevron-down fa-beat-fade fa-2xl text-center text-yellow fs-1 p-3" href="#scrollspyNext"></a></div>
     </div>
 </div>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            billede
+        </div>
+        <div class="col-12">
+            <h2>GIV EN JULEGAVE</h2>
+        </div>
+        <div class="col-12">
+            cards
+        </div>
+    </div>
+    </div>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
