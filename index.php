@@ -24,11 +24,11 @@ require "settings/init.php";
 
 <body>
 
-<div class="container"></div>
+<div class="container-fluid p-0">
 
 <div class="container-fluid banner m-0 p-0 d-flex flex-wrap overflow-hidden">
     <video autoplay muted loop class="videobg w-100 object-fit-cover position-absolute top-0 bottom-0 z-0">
-        <source src="video/herovideoph.mp4" type="video/mp4">
+        <source src="video/herovideo.mp4" type="video/mp4">
     </video>
     <div class="col-12 z-2">
         <?php
@@ -40,21 +40,29 @@ require "settings/init.php";
         <div><a class="fa-solid fa-chevron-down fa-beat-fade fa-2xl text-center text-yellow fs-1 p-3" href="#scrollspyNext"></a></div>
     </div>
 </div>
-<div class="container">
+<div class="container-fluid">
     <div class="row">
-        <div class="col-12">
-            billede
+        <div class="col-12 bg-darkgreen py-5 px-2">
+            <i class="fa-solid fa-quote-left fa-2xl py-3" style="color: #ffd300;"></i>
+            <p class="text-white text-center fs-3" id="typewriter"></p>
+            <div class="text-end"><i class="fa-solid fa-quote-right fa-2xl py-3" style="color: #ffd300;"></i></div>
+            <p class="text-center text-white fs-5 p-3">------------- Line, 30 år, mor til Liwa, 3 år & Arlo, 1 år.</p>
         </div>
         <div class="col-12">
             <h2>GIV EN JULEGAVE</h2>
         </div>
-        <div class="col-12">
-            cards
+        <div class="container-fluid bg-darkgreen">
+            <div class="row">
+                <div class="col-12">
+                    <h2>NISSEN MED DET DELTE HJERTE</h2>
+                </div>
+            </div>
+
         </div>
     </div>
     </div>
 </div>
-
+<script src="js.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
