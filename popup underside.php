@@ -23,7 +23,7 @@ require "settings/init.php";
 
 
 <!-- Popup container -->
-<div >
+<div class="container col-10" >
     <!-- Gave ikon -->
     <div id="gaveIkon" class="position-relative mb-3">
         <img src="images/lillegave.png" alt="Gave icon 150kr" style="width: 100px">
