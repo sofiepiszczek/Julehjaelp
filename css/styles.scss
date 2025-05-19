@@ -60,3 +60,21 @@ p,.instru{
 	background-position: center;  // Centrer billedet
 }
 
+/*Pop tak besked*/
+#donationPopup
+.modal-content {
+	border-radius: 1rem;
+	background-color: #f1f1f1;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+#gaveIkon{
+	right:9px;
+	bottom:74px;
+}
+
+#juletraIllustration{
+	right:-437px;
+	bottom:37px;
+}
