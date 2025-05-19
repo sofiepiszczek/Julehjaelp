@@ -15,6 +15,7 @@ require "settings/init.php";
     <meta name="copyright" content="Information om copyright">
 
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/18ba232400.js" crossorigin="anonymous"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -40,12 +41,16 @@ require "settings/init.php";
                     der mangler lidt lys her i den mørke juletid.</p>
 
                 <!-- Juletræ illustration -->
-                <img src="images/juletra.png" alt="Juletræ" id="juletraIllustration" class="position-relative my-3" style="width: 120px;">
+                <img src="images/juletra.png" alt="Juletræ" id="juletraIllustration" class="position-relative my-3" style="width: 320px;">
 
                 <!-- Knapper -->
-                <div class="d-grid gap-2">
-                    <button id="continueBtn" class="btn btn-success">FORTSÆT</button>
-                    <button id="backBtn" class="btn btn-outline-secondary">TILBAGE</button>
+                <div class="gap-2">
+                    <div class="btn btn-success">
+                        <a href="" style="color:#ffd300">FORTSÆT</a>
+                    </div>
+                    <div class="btn btn-outline-success">
+                        <a href="" style="color:#004032">TILBAGE</a>
+                    </div>
                 </div>
 
             </div>
