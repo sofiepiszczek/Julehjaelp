@@ -23,18 +23,16 @@ require "settings/init.php";
 
 
 <!-- Popup container -->
-<div class="container col-10" >
-    <!-- Gave ikon -->
-    <div id="gaveIkon" class="position-relative mb-3">
-        <img src="images/lillegave.png" alt="Gave icon 150kr" style="width: 100px">
-    </div>
-
+<div class="container col-10 mt-5">
 <div id="donationPopup" class="modal-body" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content p-4">
             <div class="text-center">
 
-
+                <!-- Gave ikon -->
+                <div id="gaveIkon" class="position-relative mb-3">
+                    <img src="images/lillegave.png" alt="Gave icon 150kr" style="width: 100px">
+                </div>
                 <!-- Tak tekst -->
                 <h2 class="" style="color:#004032;">TAK!</h2>
                 <p class="">Du har valgt at donere et juletræ til en familie<br>
@@ -45,10 +43,10 @@ require "settings/init.php";
 
                 <!-- Knapper -->
                 <div class="gap-2">
-                    <div class="btn btn-success">
+                    <div class="btn btn-darkgreen">
                         <a href="" style="color:#ffd300">FORTSÆT</a>
                     </div>
-                    <div class="btn btn-outline-success">
+                    <div class="btn btn-outline-darkgreen">
                         <a href="" style="color:#004032">TILBAGE</a>
                     </div>
                 </div>
