@@ -54,7 +54,7 @@ require "settings/init.php";
         </ul>
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="lille-tab-pane" role="tabpanel" aria-labelledby="lille-tab" tabindex="0">
-                <div class="container bg-white rounded-2">
+                <div class="container bg-white border-white">
                     <div class="row justify-content-center">
                         <div class="col-4 p-3 d-flex justify-content-center align-items-center">
                             <img src="images/juletra.png" class="img-fluid w-75" alt="Juletræ">
@@ -62,13 +62,262 @@ require "settings/init.php";
                         <div class="col-6 p-3 d-flex justify-content-center align-items-center text-darkgreen">
                             <p class="m-0">DU GIVER NU EN DANSK FAMILIE MULIGHEDEN FOR ET JULETRÆ TIL JUL</p>
                         </div>
+
+                        <div class="col-12 form-floating mb-3 mt-4">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">FORNAVN<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-12 form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">EFTERNAVN<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-12 form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">ADRESSE<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-6 form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">POST NR.<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-6 form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">BY<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-12 form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">E-MAIL<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-12 form-floating mb-3">
+                            <input type="number" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">CPR-NUMMER</label>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center align-items-center py-3">
+                                <div class="btn btn-yellow text  text-center py-2 w-50 px-1">
+                                    <a href="" class="text-decoration-none text-white fs-4">BETAL</a>
+                                </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center align-items-center py-3">
+                                <div class="btn btn-darkgreen text  text-center py-2 w-50">
+                                    <a href="" class="text-decoration-none text-white">TILBAGE</a>
+                                </div>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="mellem-tab-pane" role="tabpanel" aria-labelledby="mellem-tab" tabindex="0">...</div>
-            <div class="tab-pane fade" id="stor-tab-pane" role="tabpanel" aria-labelledby="stor-tab" tabindex="0">...</div>
-            <div class="tab-pane fade" id="frit-tab-pane" role="tabpanel" aria-labelledby="frit-tab" tabindex="0">...</div>
-            <div class="tab-pane fade" id="erhverv-tab-pane" role="tabpanel" aria-labelledby="erhverv-tab" tabindex="0">...</div>
+            <div class="tab-pane fade" id="mellem-tab-pane" role="tabpanel" aria-labelledby="mellem-tab" tabindex="0">
+                <div class="container bg-white border-white">
+                    <div class="row justify-content-center">
+                        <div class="col-4 p-3 d-flex justify-content-center align-items-center">
+                            <img src="images/juletra.png" class="img-fluid w-75" alt="Juletræ">
+                        </div>
+                        <div class="col-6 p-3 d-flex justify-content-center align-items-center text-darkgreen">
+                            <p class="m-0">DU GIVER NU EN DANSK FAMILIE MULIGHEDEN FOR EN JULEMIDDAG TIL JUL</p>
+                        </div>
+
+                        <div class="col-12 form-floating mb-3 mt-4">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">FORNAVN<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-12 form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">EFTERNAVN<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-12 form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">ADRESSE<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-6 form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">POST NR.<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-6 form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">BY<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-12 form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">E-MAIL<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-12 form-floating mb-3">
+                            <input type="number" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">CPR-NUMMER</label>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center align-items-center py-3">
+                            <div class="btn btn-yellow text  text-center py-2 w-50 px-1">
+                                <a href="" class="text-decoration-none text-white fs-4">BETAL</a>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center align-items-center py-3">
+                            <div class="btn btn-darkgreen text  text-center py-2 w-50">
+                                <a href="" class="text-decoration-none text-white">TILBAGE</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+            </div>
+            </div>
+            <div class="tab-pane fade" id="stor-tab-pane" role="tabpanel" aria-labelledby="stor-tab" tabindex="0">
+                <div class="container bg-white border-white">
+                    <div class="row justify-content-center">
+                        <div class="col-4 p-3 d-flex justify-content-center align-items-center">
+                            <img src="images/juletra.png" class="img-fluid w-75" alt="Juletræ">
+                        </div>
+                        <div class="col-6 p-3 d-flex justify-content-center align-items-center text-darkgreen">
+                            <p class="m-0">DU GIVER NU EN DANSK FAMILIE EN FULD JUL MED ALT DER HØRER TIL</p>
+                        </div>
+
+                        <div class="col-12 form-floating mb-3 mt-4">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">FORNAVN<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-12 form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">EFTERNAVN<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-12 form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">ADRESSE<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-6 form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">POST NR.<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-6 form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">BY<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-12 form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">E-MAIL<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-12 form-floating mb-3">
+                            <input type="number" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">CPR-NUMMER</label>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center align-items-center py-3">
+                            <div class="btn btn-yellow text  text-center py-2 w-50 px-1">
+                                <a href="" class="text-decoration-none text-white fs-4">BETAL</a>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center align-items-center py-3">
+                            <div class="btn btn-darkgreen text  text-center py-2 w-50">
+                                <a href="" class="text-decoration-none text-white">TILBAGE</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="frit-tab-pane" role="tabpanel" aria-labelledby="frit-tab" tabindex="0">
+                <div class="container bg-white border-white">
+                    <div class="row justify-content-center">
+                        <div class="col-4 p-3 d-flex justify-content-center align-items-center">
+                            <img src="images/juletra.png" class="img-fluid w-75" alt="Juletræ">
+                        </div>
+                        <div class="col-6 p-3 d-flex justify-content-center align-items-center text-darkgreen">
+                            <p class="m-0 fs-3">TAK!</p>
+                        </div>
+
+                        <div class="col-12 form-floating mb-3 mt-4">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">FORNAVN<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-12 form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">EFTERNAVN<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-12 form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">ADRESSE<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-6 form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">POST NR.<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-6 form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">BY<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-12 form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">E-MAIL<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-12 form-floating mb-3">
+                            <input type="number" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">CPR-NUMMER</label>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center align-items-center py-3">
+                            <div class="btn btn-yellow text  text-center py-2 w-50 px-1">
+                                <a href="" class="text-decoration-none text-white fs-4">BETAL</a>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center align-items-center py-3">
+                            <div class="btn btn-darkgreen text  text-center py-2 w-50">
+                                <a href="" class="text-decoration-none text-white">TILBAGE</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+            </div>
+            </div>
+            <div class="tab-pane fade" id="erhverv-tab-pane" role="tabpanel" aria-labelledby="erhverv-tab" tabindex="0">
+                <div class="container bg-white border-white">
+                    <div class="row justify-content-center">
+                        <div class="col-4 p-3 d-flex justify-content-center align-items-center">
+                            <img src="images/juletra.png" class="img-fluid w-75" alt="Juletræ">
+                        </div>
+                        <div class="col-6 p-3 d-flex justify-content-center align-items-center text-darkgreen">
+                            <p class="m-0 fs-3">TAK!</p>
+                        </div>
+
+                        <div class="col-12 form-floating mb-3 mt-4">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">FORNAVN<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-12 form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">EFTERNAVN<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-12 form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">ADRESSE<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-6 form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">POST NR.<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-6 form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">BY<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-12 form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">E-MAIL<span class="text-red">*</span></label>
+                        </div>
+                        <div class="col-12 form-floating mb-3">
+                            <input type="number" class="form-control" id="floatingInput" placeholder="skriv her">
+                            <label for="floatingInput" class="instru">CPR-NUMMER</label>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center align-items-center py-3">
+                            <div class="btn btn-yellow text  text-center py-2 w-50 px-1">
+                                <a href="" class="text-decoration-none text-white fs-4">BETAL</a>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center align-items-center py-3">
+                            <div class="btn btn-darkgreen text  text-center py-2 w-50">
+                                <a href="" class="text-decoration-none text-white">TILBAGE</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+            </div>
+            </div>
         </div>
         </div>
     </div>
