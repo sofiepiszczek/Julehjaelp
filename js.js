@@ -77,3 +77,35 @@ function topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+//counter for money donated//
+function animateCountUp(elementId, target, duration) {
+    const element = document.getElementById(elementId);
+    const startTime = performance.now();
+
+    function update(currentTime) {
+        const elapsed = currentTime - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        const currentValue = Math.floor(progress * target);
+        element.textContent = currentValue.toLocaleString('da-DK');
+
+        if (progress < 1) {
+            requestAnimationFrame(update);
+        } else {
+            element.textContent = target.toLocaleString('da-DK');
+        }
+    }
+
+    requestAnimationFrame(update);
+}
+
+//starter animationen: tæller op til 23.405.313 på 5 sekunder, starter efter et halvt sekund//
+setTimeout(() => {
+animateCountUp("counter", 23405313, 5000);
+}, 500);
+
+
+//starter animationen: tæller op til 23.590 på 5 sekunder, starter efter et halvt sekundt//
+setTimeout(() => {
+animateCountUp("counter1", 23590, 5000);
+}, 500);
