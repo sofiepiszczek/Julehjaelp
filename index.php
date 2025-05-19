@@ -46,18 +46,47 @@ require "settings/init.php";
             <i class="fa-solid fa-quote-left fa-2xl py-3" style="color: #ffd300;"></i>
             <p class="text-white text-center fs-3" id="typewriter"></p>
             <div class="text-end"><i class="fa-solid fa-quote-right fa-2xl py-3" style="color: #ffd300;"></i></div>
-            <p class="text-center text-white fs-5 p-3">------------- Line, 30 år, mor til Liwa, 3 år & Arlo, 1 år.</p>
+            <p class="text-center text-white fs-5 p-3"><i class="fa-solid fa-minus" style="color: #ffd300;"></i> Line, 30 år, mor til Liwa, 3 år & Arlo, 1 år.</p>
         </div>
         <div class="col-12">
             <h2>GIV EN JULEGAVE</h2>
         </div>
-        <div class="container-fluid bg-darkgreen">
-            <div class="row">
-                <div class="col-12">
+        <div class="container-fluid bg-darkgreen py-4">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 py-4 text-center text-white">
                     <h2>NISSEN MED DET DELTE HJERTE</h2>
+                    <p><i class="fa-solid fa-minus" style="color: #ffd300;"></i> en julekalender på 24 kapitler</p>
+                </div>
+                <div class="col-6">
+                    <img src="images/Bogomslag.png" class="img-fluid" alt="Bogomslag">
+                </div>
+                <div class="col-6 text-white py-4 fs-5">
+                    <p> <span class="text-green">En moderne julefortælling om nissen Nillo</span>, der rejser rundt for at dele julens magi med børn,
+                       der har allermest brug for den. Sammen med <span class="text-green">Maja</span>, der selv får <span class="text-green">julehjælp</span>, lærer vi,
+                       at det er helt okay at modtage – <span class="text-green">og at alle har noget at give.</span></p>
+                </div>
+                <div class="py-4 d-flex">
+                <div class="col-6 d-flex justify-content-center align-items-center">
+                    <div class="btn btn-yellow text  text-center py-2 w-75">
+                        <a href="" class="text-decoration-none text-darkgreen">KØB HER</a>
+                    </div>
+                </div>
+                <div class="col-6 d-flex justify-content-center align-items-center ">
+                    <div class="btn btn-outline-yellow text  text-center py-2 w-75">
+                        <a href="" class="text-decoration-none text-yellow">LÆS MERE</a>
+                    </div>
+                </div>
                 </div>
             </div>
-
+        </div>
+        <div class="col-12 py-5 px-2">
+            <i class="fa-solid fa-quote-left fa-2xl py-3" style="color: #ffd300;"></i>
+            <p class="text-darkgreen text-center fs-3" id="typewriter2"></p>
+            <div class="text-end"><i class="fa-solid fa-quote-right fa-2xl py-3" style="color: #ffd300;"></i></div>
+            <p class="text-center text-darkgreen fs-5 p-3"><i class="fa-solid fa-minus" style="color: #ffd300;"></i> Line, 30 år, mor til Liwa, 3 år & Arlo, 1 år.</p>
+        </div>
+        <div class="col-12">
+            <img src="" alt="">
         </div>
     </div>
     </div>
