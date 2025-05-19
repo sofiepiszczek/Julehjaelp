@@ -24,6 +24,10 @@ require "settings/init.php";
 
 <body>
 
+<div class="container-fluid fixed-bottom flex-end">
+<i class="fa-solid fa-angles-up fa-2xl text-yellow pb-3" onclick="topFunction()" id="ToTop" title="Go to top"></i>
+</div>
+
 <div class="container-fluid p-0">
 
 <div class="container-fluid banner m-0 p-0 d-flex flex-wrap overflow-hidden">
