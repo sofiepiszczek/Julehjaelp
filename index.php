@@ -57,7 +57,7 @@ require "settings/init.php";
                     <h2>NISSEN MED DET DELTE HJERTE</h2>
                     <p><i class="fa-solid fa-minus" style="color: #ffd300;"></i> en julekalender på 24 kapitler</p>
                 </div>
-                <div class="col-6">
+                <div class="col-6 p-3">
                     <img src="images/Bogomslag.png" class="img-fluid" alt="Bogomslag">
                 </div>
                 <div class="col-6 text-white py-4 fs-5">
@@ -85,9 +85,23 @@ require "settings/init.php";
             <div class="text-end"><i class="fa-solid fa-quote-right fa-2xl py-3" style="color: #ffd300;"></i></div>
             <p class="text-center text-darkgreen fs-5 p-3"><i class="fa-solid fa-minus" style="color: #ffd300;"></i> Line, 30 år, mor til Liwa, 3 år & Arlo, 1 år.</p>
         </div>
-        <div class="col-12">
-            <img src="" alt="">
+        <div class="col-12 container-fluid">
+            <img src="images/infografik1.png" alt="infografik" class="img-fluid">
         </div>
+        <div class="col-12 bgimg py-5 text-center text-white d-flex flex-column justify-content-center align-items-center">
+                <h2>TÆND ET LYS I MØRKET</h2>
+                <p><i class="fa-solid fa-minus" style="color: #ffd300;"></i> støt en familie i dag</p>
+            <div class="col-6 py-5 d-flex flex-column justify-content-center align-items-center">
+
+                <div class="btn btn-yellow text text-center py-2 my-3 ms-5">
+                    <a href="" class="text-decoration-none text-darkgreen">PRIVATPERSON</a>
+                </div>
+                <div class="btn btn-yellow text text-center py-2 my-3 ms-5">
+                    <a href="" class="text-decoration-none text-darkgreen">VIRKSOMHED</a>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </div>
     </div>
 </div>

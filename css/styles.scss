@@ -52,3 +52,11 @@ p,.instru{
 
 /*julekort*/
 
+.bgimg {
+	background-image: url("../images/lys.png");
+	height: auto;
+	width: 100vw;
+	background-size: cover;       // Billedet dækker hele baggrunden
+	background-position: center;  // Centrer billedet
+}
+
