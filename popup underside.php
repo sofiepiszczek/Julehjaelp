@@ -20,23 +20,27 @@ require "settings/init.php";
 </head>
 <body>
 
+
 <!-- Popup container -->
-<div id="donationPopup" class="" tabindex="-1" aria-hidden="true">
+<div >
+    <!-- Gave ikon -->
+    <div id="gaveIkon" class="position-relative mb-3">
+        <img src="images/lillegave.png" alt="Gave icon 150kr" style="width: 100px">
+    </div>
+
+<div id="donationPopup" class="modal-body" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content p-4">
             <div class="text-center">
-                <!-- Gave ikon -->
-                <div class="position-relative mb-3">
-                    <img src="images/lillegave.png" alt="Gave icon 150kr" style="width: 100px">
-                </div>
+
 
                 <!-- Tak tekst -->
-                <h2 class="">TAK!</h2>
+                <h2 class="" style="color:#004032;">TAK!</h2>
                 <p class="">Du har valgt at donere et juletræ til en familie<br>
                     der mangler lidt lys her i den mørke juletid.</p>
 
                 <!-- Juletræ illustration -->
-                <img src="images/juletra.png" alt="Juletræ" class="my-3" style="width: 120px;">
+                <img src="images/juletra.png" alt="Juletræ" id="juletraIllustration" class="position-relative my-3" style="width: 120px;">
 
                 <!-- Knapper -->
                 <div class="d-grid gap-2">
@@ -44,13 +48,11 @@ require "settings/init.php";
                     <button id="backBtn" class="btn btn-outline-secondary">TILBAGE</button>
                 </div>
 
-
-
             </div>
         </div>
     </div>
 </div>
-
+</div>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

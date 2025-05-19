@@ -52,3 +52,20 @@ p{
 /*julekort*/
 
 /*Pop tak besked*/
+#donationPopup
+.modal-content {
+	border-radius: 1rem;
+	background-color: #f1f1f1;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+#gaveIkon{
+	right:-500px;
+	bottom:-35px;
+}
+
+#juletraIllustration{
+	right:-22px;
+	bottom:-17px;
+}
