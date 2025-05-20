@@ -56,8 +56,66 @@ require "settings/init.php";
             <div class="text-end"><i class="fa-solid fa-quote-right fa-2xl py-3" style="color: #ffd300;"></i></div>
             <p class="text-center text-white fs-5 p-3"><i class="fa-solid fa-minus" style="color: #ffd300;"></i> Line, 30 år, mor til Liwa, 3 år & Arlo, 1 år.</p>
         </div>
-        <div class="col-12">
-            <h2>GIV EN JULEGAVE</h2>
+        <div class="col-12 px-4">
+            <h2 class="text-darkgreen text text-center py-3 fs-1">GIV EN JULEGAVE</h2>
+            <div>
+                <div class="container col-10 mt-5">
+                    <!-- card m. donation 150kr-->
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h2>ET JULETRÆ</h2>
+                            <p>1 x juletræ til en børnefamilie</p>
+                            <div class="btn btn-darkgreen">
+                                <a href="" style="color:#ffd300">VÆLG</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gave ikon -->
+                <div id="pakkeIkon" class="position-relative mb-3">
+                    <img src="images/gave150.png" alt="Gave icon 150kr" style="width: 100px">
+                </div>
+            </div>
+
+            <!-- card m. donation 800kr-->
+            <div>
+                <div class="container col-10 ">
+                    <!-- card m. donation -->
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h2>EN JULEMIDDAG</h2>
+                            <p>1 x gavekort til rema1000</p>
+                            <div class="btn btn-darkgreen">
+                                <a href="" style="color:#ffd300">VÆLG</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gave ikon -->
+                <div id="pakkeIkon2" class="position-relative mb-3">
+                    <img src="images/gave800.png" alt="Gave icon 150kr" style="width: 100px">
+                </div>
+            </div>
+
+            <!-- card m. donation 1500kr-->
+            <div>
+                <div class="container col-10 ">
+                    <!-- card m. donation -->
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h2>En FULD JULEAFTEN</h2>
+                            <p class="ms-5 me-5">1 x juletræ, 1 x gavekort til rema1000 + 1 x julegave til barn</p>
+                            <div class="btn btn-darkgreen">
+                                <a href="" style="color:#ffd300">VÆLG</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gave ikon -->
+                <div id="pakkeIkon" class="position-relative mb-3">
+                    <img src="images/gave1500.png" alt="Gave icon 150kr" style="width: 100px">
+                </div>
+            </div>
         </div>
         <div class="container-fluid bg-darkgreen py-4">
             <div class="row justify-content-center align-items-center">
