@@ -109,3 +109,23 @@ animateCountUp("counter", 23405313, 5000);
 setTimeout(() => {
 animateCountUp("counter1", 23590, 5000);
 }, 500);
+
+//tælle op og ned funktion//
+const plus = document.querySelector(".plus");
+const minus = document.querySelector(".minus");
+const tal = document.querySelector(".tal");
+
+
+plus.addEventListener("click", () => {
+    const nyttal = parseInt(tal.innerHTML) + 1;
+
+    if(nyttal <=11){
+        tal.innerHTML = nyttal;
+    }
+});
+minus.addEventListener("click", () => {
+    const nyttal = parseInt(tal.innerHTML) - 1;
+    if(nyttal>0){
+        tal.innerHTML = nyttal;
+    }
+});
