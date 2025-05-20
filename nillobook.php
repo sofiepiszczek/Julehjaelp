@@ -47,7 +47,7 @@ require "settings/init.php";
                             <!--amount of books buyer wants to buy
                             https://getbootstrap.com/docs/5.3/forms/input-group/-->
                             <button class="minus btn btn-outline-white" type="button"><i class="fa-solid fa-minus"></i></button>
-                            <input type="text" class="tal form-control text-center" placeholder="1" aria-label="amount of books wanted">
+                            <input type="text" class="tal form-control text-center" value="1" aria-label="amount of books wanted">
                             <button class="plus btn btn-outline-white" type="button"><i class="fa-solid fa-plus"></i></button>
                         </div>
                         <p class="text-white">

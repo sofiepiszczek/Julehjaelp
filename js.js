@@ -117,15 +117,15 @@ const tal = document.querySelector(".tal");
 
 
 plus.addEventListener("click", () => {
-    const nyttal = parseInt(tal.innerHTML) + 1;
+    const nyttal = parseInt(tal.value) + 1;
 
     if(nyttal <=11){
-        tal.innerHTML = nyttal;
+        tal.value = nyttal;
     }
 });
 minus.addEventListener("click", () => {
-    const nyttal = parseInt(tal.innerHTML) - 1;
+    const nyttal = parseInt(tal.value) - 1;
     if(nyttal>0){
-        tal.innerHTML = nyttal;
+        tal.value = nyttal;
     }
 });
