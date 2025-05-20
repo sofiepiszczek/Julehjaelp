@@ -94,8 +94,10 @@ require "settings/init.php";
                         </div>
                     </div>
                     <!-- Gave ikon -->
-                    <div id="pakkeIkon2" class="position-relative mb-3">
+                    <div class="container col-10 ">
+                    <div id="pakkeIkon" class="position-relative mb-3">
                         <img src="images/gave800.png" alt="Gave icon 150kr" style="width: 100px">
+                    </div>
                     </div>
                 </div>
 

@@ -45,7 +45,7 @@ require "settings/init.php";
 
 <!-- card m. donation 800kr-->
 <div>
-    <div class="container col-10 ">
+    <div class="container col-10">
         <!-- card m. donation -->
         <div class="card text-center">
             <div class="card-body">
@@ -65,7 +65,7 @@ require "settings/init.php";
 
 <!-- card m. donation 1500kr-->
 <div>
-    <div class="container col-10 ">
+    <div class="container col-10">
         <!-- card m. donation -->
         <div class="card text-center">
             <div class="card-body">
