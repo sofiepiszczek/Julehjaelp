@@ -60,31 +60,34 @@ require "settings/init.php";
             </div>
             <div class="col-12 px-4">
                 <h2 class="text-darkgreen text text-center py-3 fs-1">GIV EN JULEGAVE</h2>
-                <div>
-                    <div class="container col-10 mt-5">
-                        <!-- card m. donation 150kr-->
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <h2>ET JULETRÆ</h2>
-                                <p>1 x juletræ til en børnefamilie</p>
-                                <div class="btn btn-darkgreen">
-                                    <a href="" style="color:#ffd300">VÆLG</a>
+            <div>
+                <!-- card m. donation 150kr-->
+                    <div>
+                        <div class="container col-10 position-relative mb-5">
+                            <!-- card m. donation -->
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h2>ET JULETRÆ</h2>
+                                    <p>1 x juletræ til en børnefamilie</p>
+                                    <div class="btn btn-darkgreen">
+                                        <a href="" style="color:#ffd300">VÆLG</a>
+                                    </div>
                                 </div>
+                            </div>
+
+                            <!-- Gave ikon -->
+                            <div id="" class="position-absolute top-50 start-0 translate-middle">
+                                <img src="images/gave150.png" alt="Gave icon 150kr" style="width: 100px">
                             </div>
                         </div>
                     </div>
-                    <!-- Gave ikon -->
-                    <div id="pakkeIkon" class="position-relative mb-3">
-                        <img src="images/gave150.png" alt="Gave icon 150kr" style="width: 100px">
-                    </div>
-                </div>
 
                 <!-- card m. donation 800kr-->
                 <div>
-                    <div class="container col-10 position-relative">
+                    <div class="container col-10 position-relative mb-5">
                         <!-- card m. donation -->
                         <div class="card text-center">
-                            <div class="card-body">
+                            <div class="card-body ">
                                 <h2>EN JULEMIDDAG</h2>
                                 <p>1 x gavekort til rema1000</p>
                                 <div class="btn btn-darkgreen">
@@ -92,32 +95,31 @@ require "settings/init.php";
                                 </div>
                             </div>
                         </div>
-
                         <!-- Gave ikon -->
                         <div id="" class="position-absolute top-50 start-100 translate-middle">
-                            <img src="images/gave800.png" alt="Gave icon 150kr" style="width: 100px">
+                            <img src="images/gave800.png" alt="Gave icon 800kr" style="width: 100px">
                         </div>
                     </div>
-
                 </div>
 
                 <!-- card m. donation 1500kr-->
                 <div>
-                    <div class="container col-10 ">
+                    <div class="container col-10 position-relative mb-5">
                         <!-- card m. donation -->
                         <div class="card text-center">
                             <div class="card-body">
-                                <h2>En FULD JULEAFTEN</h2>
-                                <p class="ms-5 me-5">1 x juletræ, 1 x gavekort til rema1000 + 1 x julegave til barn</p>
+                                <h2>EN FULD JULEAFTEN</h2>
+                                <p>1 x juletræ, 1 x gavekort til rema1000, 1 x julegave til barn</p>
                                 <div class="btn btn-darkgreen">
                                     <a href="" style="color:#ffd300">VÆLG</a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- Gave ikon -->
-                    <div id="pakkeIkon" class="position-relative mb-3">
-                        <img src="images/gave1500.png" alt="Gave icon 150kr" style="width: 100px">
+
+                        <!-- Gave ikon -->
+                        <div id="" class="position-absolute top-50 start-0 translate-middle">
+                            <img src="images/gave1500.png" alt="Gave icon 1500kr" style="width: 100px">
+                        </div>
                     </div>
                 </div>
             </div>

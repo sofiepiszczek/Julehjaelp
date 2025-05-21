@@ -31,7 +31,7 @@ require "settings/init.php";
 
                 <!-- Gave ikon -->
                 <div id="gaveIkon" class="position-relative mb-3">
-                    <img src="images/lillegave.png" alt="Gave icon 150kr" style="width: 100px">
+                    <img src="images/gave150.png" alt="Gave icon 150kr" style="width: 100px">
                 </div>
                 <!-- Tak tekst -->
                 <h2 class="" style="color:#004032;">TAK!</h2>
