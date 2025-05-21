@@ -68,6 +68,7 @@ require "settings/init.php";
 <!--Cards m. pakkeløsning-->
             <div class="col-12 px-4">
                 <h2 class="text-darkgreen text text-center py-3 fs-1">GIV EN JULEGAVE</h2>
+            </div>
             <div>
                 <!-- card m. donation 150kr-->
                     <div>
@@ -131,6 +132,7 @@ require "settings/init.php";
                     </div>
                 </div>
             </div>
+
 <!--Nillo bog-->
             <div class="container-fluid bg-darkgreen py-4">
                 <div class="row justify-content-center align-items-center">
@@ -156,7 +158,7 @@ require "settings/init.php";
                             </div>
                         </div>
                         <div class="col-6 d-flex justify-content-center align-items-center ">
-                            <div class="btn btn-outline-yellow text  text-center py-2 w-75">
+                            <div class="btn btn-outline-yellow text text-center py-2 w-75">
                                 <a href="" class="text-decoration-none text-yellow">LÆS MERE</a>
                             </div>
                         </div>
@@ -172,11 +174,20 @@ require "settings/init.php";
                 <p class="text-center text-darkgreen fs-5 p-3"><i class="fa-solid fa-minus" style="color: #ffd300;"></i>
                     Line, 30 år, mor til Liwa, 3 år & Arlo, 1 år.</p>
             </div>
+<!--Infografik-->
             <div class="col-12 container-fluid py-4">
                 <img src="images/infografik1.png" alt="infografik" class="img-fluid">
             </div>
+
+<!--Sløjfe -->
+                <div class="bowbanner col-12 position-relative d-inline-block mt-5">
+                    <div class="col-3 position-absolute top-50 start-50 translate-middle">
+                        <img src="images/bowVandret.png" alt="Sløjfe" class="img-fluid pt-4 mt-1">
+                    </div>
+                </div>
+<!--Tænd et lys i mørjet billede-->
             <div class="col-12 bgimg py-5 text-center text-white d-flex flex-column justify-content-center align-items-center">
-                <h2>TÆND ET LYS I MØRKET</h2>
+                <h2 class="mt-3">TÆND ET LYS I MØRKET</h2>
                 <p><i class="fa-solid fa-minus" style="color: #ffd300;"></i> støt en familie i dag</p>
                 <div class="col-6 py-5 d-flex flex-column justify-content-center align-items-center">
 
