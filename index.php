@@ -81,7 +81,7 @@ require "settings/init.php";
 
                 <!-- card m. donation 800kr-->
                 <div>
-                    <div class="container col-10 ">
+                    <div class="container col-10 position-relative">
                         <!-- card m. donation -->
                         <div class="card text-center">
                             <div class="card-body">
@@ -92,11 +92,13 @@ require "settings/init.php";
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Gave ikon -->
+                        <div id="" class="position-absolute top-50 start-100 translate-middle">
+                            <img src="images/gave800.png" alt="Gave icon 150kr" style="width: 100px">
+                        </div>
                     </div>
-                    <!-- Gave ikon -->
-                    <div id="pakkeIkon2" class="position-relative mb-3">
-                        <img src="images/gave800.png" alt="Gave icon 150kr" style="width: 100px">
-                    </div>
+
                 </div>
 
                 <!-- card m. donation 1500kr-->
@@ -157,7 +159,7 @@ require "settings/init.php";
                 <p class="text-center text-darkgreen fs-5 p-3"><i class="fa-solid fa-minus" style="color: #ffd300;"></i>
                     Line, 30 år, mor til Liwa, 3 år & Arlo, 1 år.</p>
             </div>
-            <div class="col-12 container-fluid">
+            <div class="col-12 container-fluid py-4">
                 <img src="images/infografik1.png" alt="infografik" class="img-fluid">
             </div>
             <div class="col-12 bgimg py-5 text-center text-white d-flex flex-column justify-content-center align-items-center">
