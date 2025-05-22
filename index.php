@@ -138,18 +138,13 @@ require "settings/init.php";
                 <div class="row justify-content-center align-items-center">
                     <div class="col-12 py-4 text-center text-white">
                         <h2>NISSEN MED DET DELTE HJERTE</h2>
-                        <p><i class="fa-solid fa-minus" style="color: #ffd300;"></i> en julekalender på 24 kapitler</p>
+                        <p><i class="fa-solid fa-minus" style="color: #ffd300;"></i> <span class="text-yellow">en julekalender på 24 kapitler</span></p>
                     </div>
                     <div class="col-6 p-3">
                         <img src="images/Bogomslag.png" class="img-fluid" alt="Bogomslag">
                     </div>
                     <div class="col-6 text-white py-4 fs-5">
-                        <p><span class="text-green">En moderne julefortælling om nissen Nillo</span>, der rejser rundt
-                            for at dele julens magi med børn,
-                            der har allermest brug for den. Sammen med <span class="text-green">Maja</span>, der selv
-                            får <span class="text-green">julehjælp</span>, lærer vi,
-                            at det er helt okay at modtage – <span
-                                    class="text-green">og at alle har noget at give.</span></p>
+                        <p>En hjertevarm julefortælling om at <span class="text-yellow">modtage</span> og <span class="text-yellow">give videre</span>.</p>
                     </div>
                     <div class="py-4 d-flex">
                         <div class="col-6 d-flex justify-content-center align-items-center">
