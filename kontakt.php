@@ -22,7 +22,7 @@ require "settings/init.php";
     <script src="https://kit.fontawesome.com/18ba232400.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="h-100">
 <div class="container">
     <div class="row justify-content-center align-items-center">
         <div class="col-12 z-2">
@@ -34,15 +34,22 @@ require "settings/init.php";
             <h1 class="text-darkgreen text-center">KONTAKT OS</h1>
         </div>
         <div class="col-10">
-            <div class="container bg-grey rounded-2 px-2 py-4">
-                <h3>DANSK FOLKEHJÆLP</h3>
-                <p>
+            <div class="container-fluid bg-grey rounded-2 p-0">
+                <!--Sløjfe -->
+                <div class="bowbanner col-12 position-relative d-inline-block mb-5 rounded-top-2">
+                    <div class="col-3 position-absolute top-50 start-50 translate-middle">
+                        <img src="images/bowVandret.png" alt="Sløjfe" class="img-fluid pt-4 mt-1">
+                    </div>
+                </div>
+
+                <h3 class="px-3">DANSK FOLKEHJÆLP</h3>
+                <p class="px-3">
                     Brovejen 4<br>4800 Nykøbing Falster
                     Telefon: +45 70220230<br>E-mail:post@folkehjaelp.dk<br><br>
                     Telefonen er åben 9.00 til 12.00 og 13.00 til 16.00 (ma-to) og 9.00 til 12.00 (fre)<br><br>
                     Kontoret er åbent 9.00 til 16.00 (ma-to).<br> Fredag er der lukket
                 </p>
-                <img src="" alt="">
+                <img src="images/nillo.png" class="img-fluid p-4" style="width: 50%" alt="Drillenisse">
             </div>
         </div>
         <div class="col-12 py-4 text-center">

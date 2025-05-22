@@ -23,7 +23,7 @@ require "settings/init.php";
 </head>
 
 <body>
-<div class="container">
+<div class="container mb-5">
     <div class="row justify-content-center align-items-center">
         <div class="col-12 z-2">
             <?php
@@ -34,7 +34,13 @@ require "settings/init.php";
             <h1 class="text-darkgreen text-center">OM OS</h1>
         </div>
         <div class="col-10">
-            <div class="container bg-grey rounded-2 px-2 py-4">
+            <div class="container-fluid bg-grey rounded-2 px-0">
+                <!--Sløjfe -->
+                <div class="bowbanner col-12 position-relative d-inline-block mb-5 rounded-top-2">
+                    <div class="col-3 position-absolute top-50 start-50 translate-middle">
+                        <img src="images/bowVandret.png" alt="Sløjfe" class="img-fluid pt-4 mt-1">
+                    </div>
+                </div>
                 <div class="row justify-content-center align-items-center">
                     <div class="col-11">
                         <p>
@@ -56,7 +62,7 @@ require "settings/init.php";
                             og Zambia, vi bygger skoler i Afghanistan og arbejder med genopbygning og rehabilitering i det krigshærgerede Ukraine.
                         </p>
                     </div>
-                    <div class="col-12 text-center">
+                    <div class="col-12 text-center py-3">
                         <div class="btn bg-darkgreen px-3 py-2 ">
                             <a href="" class="text text-yellow">HJÆLP OS MED AT HJÆLPE</a>
                         </div>
