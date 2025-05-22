@@ -49,12 +49,6 @@ p,.instru{
 .banner{
 	height: 1000px;
 }
-
-/*navbar*/
-
-
-/*julekort*/
-
 .bgimg {
 	background-image: url("../images/lys.png");
 	height: auto;
@@ -62,6 +56,12 @@ p,.instru{
 	background-size: cover;       // Billedet dækker hele baggrunden
 	background-position: center;  // Centrer billedet
 }
+/*navbar*/
+
+
+/*julekort*/
+
+
 
 /*Pop tak besked*/
 #donationPopup
@@ -108,7 +108,27 @@ p,.instru{
 	font-size: 3rem;
 }
 
+/*Pop-up TAK*/
 
+.julebg{
+	background-image: url("../images/juletra.png");
+	height: 600px;
+	width: 100%;
+	background-position: left center;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}
+.tak{
+	font-size: 4rem;
+
+}
+.takmt{
+	margin-top: 100px;
+}
+.takmttop{
+	margin-top: 130px;
+}
 
 
 

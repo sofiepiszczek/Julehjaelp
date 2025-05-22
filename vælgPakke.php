@@ -67,6 +67,7 @@ require "settings/init.php";
                     </button>
                 </li>
             </ul>
+
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="lille-tab-pane" role="tabpanel" aria-labelledby="lille-tab"
                      tabindex="0">
@@ -114,20 +115,54 @@ require "settings/init.php";
                                     bidrag</p>
                             </div>
                             <div class="col-12 d-flex justify-content-center align-items-center py-3">
-                                <div class="btn btn-yellow instru text-center py-2 w-50 px-1">
-                                    <a href="" class="text-decoration-none text-white fs-4">BETAL</a>
+                                <!-- Button trigger modal -->
+                                <button type="button"
+                                        class="btn btn-yellow instru text-center py-2 w-50 px-1 text-decoration-none text-white fs-4"
+                                        data-bs-toggle="modal" data-bs-target="#lilleModal">
+                                    BETAL
+                                </button>
+
+                                <!-- MODAL -->
+                                <div class="modal fade" id="lilleModal" tabindex="-1"
+                                     aria-labelledby="lilleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog takmttop mx-4">
+                                        <div class="modal-content position-relative">
+                                            <div class="modal-body">
+                                                <div class="position-absolute start-50 translate-middle-x"
+                                                     style="top: -100px;">
+                                                    <img src="images/gave150.png" alt="Gave icon 150kr"
+                                                         class="img-fluid">
+                                                </div>
+                                                <div class="text-center mt-5 pt-5">
+                                                    <h1 class="tak text-darkgreen">TAK!</h1>
+                                                    <p class="px-4">Du har valgt at donere et juletræ til en familie der
+                                                        mangler lidt lys her i den mørke juletid.</p>
+                                                    <div class="btn bg-darkgreen m-3 text-center px-3">
+                                                        <a href="#"
+                                                           class="text-yellow text-decoration-none">FORSTÅET</a>
+                                                    </div>
+                                                    <button type="button"
+                                                            class="btn btn-outline-darkgreen text-darkgreen text-center m-3 px-3"
+                                                            data-bs-dismiss="modal">
+                                                        TILBAGE
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+
+
                             </div>
                             <div class="col-12 d-flex justify-content-center align-items-center py-3">
                                 <div class="btn btn-darkgreen instru text-center py-2 w-50">
                                     <a href="" class="text-decoration-none text-white">TILBAGE</a>
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                 </div>
+
                 <div class="tab-pane fade" id="mellem-tab-pane" role="tabpanel" aria-labelledby="mellem-tab"
                      tabindex="0">
                     <div class="container bg-white border-white">
@@ -146,7 +181,8 @@ require "settings/init.php";
                             </div>
                             <div class="col-12 form-floating mb-3">
                                 <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
-                                <label for="floatingInput" class="instru px-4">EFTERNAVN<span class="text-red">*</span></label>
+                                <label for="floatingInput" class="instru px-4">EFTERNAVN<span
+                                            class="text-red">*</span></label>
                             </div>
                             <div class="col-12 form-floating mb-3">
                                 <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
@@ -174,9 +210,40 @@ require "settings/init.php";
                                     bidrag</p>
                             </div>
                             <div class="col-12 d-flex justify-content-center align-items-center py-3">
-                                <div class="btn btn-yellow instru text-center py-2 w-50 px-1">
-                                    <a href="" class="text-decoration-none text-white fs-4">BETAL</a>
+                                <!-- Button trigger modal -->
+                                <button type="button"
+                                        class="btn btn-yellow instru text-center py-2 w-50 px-1 text-decoration-none text-white fs-4"
+                                        data-bs-toggle="modal" data-bs-target="#mellemModal">
+                                    BETAL
+                                </button>
+
+                                <!-- MODAL -->
+                                <div class="modal fade" id="mellemModal" tabindex="-1" aria-labelledby="mellemModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog takmttop mx-4">
+                                        <div class="modal-content position-relative">
+                                            <div class="modal-body">
+                                                <div class="position-absolute start-50 translate-middle-x" style="top: -100px;">
+                                                    <img src="images/gave800.png" alt="Gave icon 150kr" class="img-fluid">
+                                                </div>
+                                                <div class="text-center mt-5 pt-5">
+                                                    <h1 class="tak text-darkgreen">TAK!</h1>
+                                                    <p class="px-4">
+                                                        Du har valgt at donere en julemiddag til en familie.
+                                                        <br><br>
+                                                        1 x gavekort til Rema1000</p>
+                                                    <div class="btn bg-darkgreen m-3 text-center px-3">
+                                                        <a href="#" class="text-yellow text-decoration-none">FORSTÅET</a>
+                                                    </div>
+                                                    <button type="button" class="btn btn-outline-darkgreen text-darkgreen text-center m-3 px-3" data-bs-dismiss="modal">
+                                                        TILBAGE
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+
+
                             </div>
                             <div class="col-12 d-flex justify-content-center align-items-center py-3">
                                 <div class="btn btn-darkgreen instru text-center py-2 w-50">
@@ -205,7 +272,8 @@ require "settings/init.php";
                             </div>
                             <div class="col-12 form-floating mb-3">
                                 <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
-                                <label for="floatingInput" class="instru px-4">EFTERNAVN<span class="text-red">*</span></label>
+                                <label for="floatingInput" class="instru px-4">EFTERNAVN<span
+                                            class="text-red">*</span></label>
                             </div>
                             <div class="col-12 form-floating mb-3">
                                 <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
@@ -233,9 +301,43 @@ require "settings/init.php";
                                     bidrag</p>
                             </div>
                             <div class="col-12 d-flex justify-content-center align-items-center py-3">
-                                <div class="btn btn-yellow instru text-center py-2 w-50 px-1">
-                                    <a href="" class="text-decoration-none text-white fs-4">BETAL</a>
+                                <!-- Button trigger modal -->
+                                <button type="button"
+                                        class="btn btn-yellow instru text-center py-2 w-50 px-1 text-decoration-none text-white fs-4"
+                                        data-bs-toggle="modal" data-bs-target="#storModal">
+                                    BETAL
+                                </button>
+
+                                <!-- MODAL -->
+                                <div class="modal fade" id="storModal" tabindex="-1" aria-labelledby="storModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog takmttop mx-4">
+                                        <div class="modal-content position-relative">
+                                            <div class="modal-body">
+                                                <div class="position-absolute start-50 translate-middle-x" style="top: -100px;">
+                                                    <img src="images/gave1500.png" alt="Gave icon 150kr" class="img-fluid">
+                                                </div>
+                                                <div class="text-center mt-5 pt-5">
+                                                    <h1 class="tak text-darkgreen">TAK!</h1>
+                                                    <p class="px-4">Du har valgt at donere
+                                                        en fuld juleaften til en
+                                                        familie. Dette inkluderer:
+                                                        <br><br>
+                                                        1 x juletræ<br>
+                                                        1 x gavekort til Rema1000<br>
+                                                        1 x julegave til barn<br></p>
+                                                    <div class="btn bg-darkgreen m-3 text-center px-3">
+                                                        <a href="#" class="text-yellow text-decoration-none">FORSTÅET</a>
+                                                    </div>
+                                                    <button type="button" class="btn btn-outline-darkgreen text-darkgreen text-center m-3 px-3" data-bs-dismiss="modal">
+                                                        TILBAGE
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+
+
                             </div>
                             <div class="col-12 d-flex justify-content-center align-items-center py-3">
                                 <div class="btn btn-darkgreen instru text-center py-2 w-50">
@@ -267,7 +369,8 @@ require "settings/init.php";
                             </div>
                             <div class="col-12 form-floating mb-3">
                                 <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
-                                <label for="floatingInput" class="instru px-4">EFTERNAVN<span class="text-red">*</span></label>
+                                <label for="floatingInput" class="instru px-4">EFTERNAVN<span
+                                            class="text-red">*</span></label>
                             </div>
                             <div class="col-12 form-floating mb-3">
                                 <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
@@ -300,9 +403,36 @@ require "settings/init.php";
                                 </div>
                             </div>
                             <div class="col-6 d-flex justify-content-center align-items-center py-3">
-                                <div class="btn btn-darkgreen instru text-center py-2 px-5">
-                                    <a href="" class="text-decoration-none text-white">ET BIDRAG</a>
+                                <!-- Button trigger modal -->
+                                <button type="button"
+                                        class="btn btn-darkgreen instru text-center py-2 px-5"
+                                        data-bs-toggle="modal" data-bs-target="#fritModal">
+                                    ET BIDRAG
+                                </button>
+
+                                <!-- MODAL -->
+                                <div class="modal fade" id="fritModal" tabindex="-1" aria-labelledby="fritModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog takmttop mx-4">
+                                        <div class="modal-content position-relative">
+                                            <div class="modal-body">
+                                                <div class="position-absolute start-50 translate-middle-x" style="top: -100px;">
+                                                    <img src="images/juletra.png" alt="Gave icon 150kr" class="img-fluid">
+                                                </div>
+                                                <div class="text-center mt-5 pt-5">
+                                                    <h1 class="tak text-darkgreen py-3">TAK!</h1>
+                                                    <div class="btn bg-darkgreen m-3 text-center px-3">
+                                                        <a href="#" class="text-yellow text-decoration-none">FORSTÅET</a>
+                                                    </div>
+                                                    <button type="button" class="btn btn-outline-darkgreen text-darkgreen text-center m-3 px-3" data-bs-dismiss="modal">
+                                                        TILBAGE
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+
+
                             </div>
                             <div class="col-12 d-flex justify-content-center align-items-center py-3">
                                 <div class="btn btn-outline-darkgreen instru  text-center py-2 w-50">
@@ -330,11 +460,13 @@ require "settings/init.php";
                             </div>
                             <div class="col-12 form-floating mb-3 mt-4">
                                 <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
-                                <label for="floatingInput" class="instru px-4">FIRMANAVN<span class="text-red">*</span></label>
+                                <label for="floatingInput" class="instru px-4">FIRMANAVN<span
+                                            class="text-red">*</span></label>
                             </div>
                             <div class="col-12 form-floating mb-3">
                                 <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
-                                <label for="floatingInput" class="instru px-4">CVR-NUMMER<span class="text-red">*</span></label>
+                                <label for="floatingInput" class="instru px-4">CVR-NUMMER<span
+                                            class="text-red">*</span></label>
                             </div>
                             <div class="col-12 form-floating mb-3">
                                 <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
@@ -357,7 +489,8 @@ require "settings/init.php";
                             </div>
                             <div class="col-6 form-floating mb-3">
                                 <input type="text" class="form-control" id="floatingInput" placeholder="skriv her">
-                                <label for="floatingInput" class="instru px-4">EFTERNAVN<span class="text-red">*</span></label>
+                                <label for="floatingInput" class="instru px-4">EFTERNAVN<span
+                                            class="text-red">*</span></label>
                             </div>
                             <div class="col-12 form-floating mb-3">
                                 <input type="email" class="form-control" id="floatingInput" placeholder="skriv her">
@@ -370,9 +503,36 @@ require "settings/init.php";
                                 </div>
                             </div>
                             <div class="col-6 d-flex justify-content-center align-items-center py-3">
-                                <div class="btn btn-darkgreen instru text-center py-2 px-5">
-                                    <a href="" class="text-decoration-none text-white">ET BIDRAG</a>
+                                <!-- Button trigger modal -->
+                                <button type="button"
+                                        class="btn btn-darkgreen instru text-center py-2 px-5"
+                                        data-bs-toggle="modal" data-bs-target="#erhvervModal">
+                                    ET BIDRAG
+                                </button>
+
+                                <!-- MODAL -->
+                                <div class="modal fade" id="erhvervModal" tabindex="-1" aria-labelledby="erhvervModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog takmttop mx-4">
+                                        <div class="modal-content position-relative">
+                                            <div class="modal-body">
+                                                <div class="position-absolute start-50 translate-middle-x" style="top: -100px;">
+                                                    <img src="images/juletra.png" alt="Gave icon 150kr" class="img-fluid">
+                                                </div>
+                                                <div class="text-center mt-5 pt-5">
+                                                    <h1 class="tak text-darkgreen py-3">TAK!</h1>
+                                                    <div class="btn bg-darkgreen m-3 text-center px-3">
+                                                        <a href="#" class="text-yellow text-decoration-none">FORSTÅET</a>
+                                                    </div>
+                                                    <button type="button" class="btn btn-outline-darkgreen text-darkgreen text-center m-3 px-3" data-bs-dismiss="modal">
+                                                        TILBAGE
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+
+
                             </div>
                             <div class="col-12 d-flex justify-content-center align-items-center py-3">
                                 <div class="btn btn-outline-darkgreen instru  text-center py-2 w-50">
@@ -387,6 +547,7 @@ require "settings/init.php";
             </div>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
