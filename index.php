@@ -44,11 +44,11 @@ require "settings/init.php";
 
 <!--Landingpage-->
         <div class=" col-12 tekst1 d-flex justify-content-center align-items-center flex-wrap flex-column h-100 z-1 position-relative">
-            <div><h1 class="text-yellow text-center">Vi har indsamlet</h1></div>
-            <div><h1 id="counter" class="text-yellow text-center">0</h1></div>
-            <div><h1 class="text-yellow text-center">til</h1></div>
-            <div><h1 id="counter1" class="text-yellow text-center">0</h1></div>
-            <div><h1 class="text-yellow text-center">børnefamilier</h1></div>
+            <div><h1 class="text-yellow text-center instru">Vi har indsamlet</h1></div>
+            <div><h1 id="counter" class="text-yellow text-center instru fstal">0</h1></div>
+            <div><h1 class="text-yellow text-center instru">til</h1></div>
+            <div><h1 id="counter1" class="text-yellow text-center instru fstal">0</h1></div>
+            <div><h1 class="text-yellow text-center instru">børnefamilier</h1></div>
             <div><a class="fa-solid fa-chevron-down fa-beat-fade fa-2xl text-center text-yellow fs-1 p-3"
                     href="#scrollspyNext"></a></div>
         </div>
@@ -67,18 +67,18 @@ require "settings/init.php";
 
 <!--Cards m. pakkeløsning-->
             <div class="col-12 px-4">
-                <h2 class="text-darkgreen text text-center py-3 fs-1">GIV EN JULEGAVE</h2>
+                <h2 class="text-darkgreen text text-center py-4 fs-1">GIV EN JULEGAVE</h2>
             </div>
             <div>
                 <!-- card m. donation 150kr-->
                     <div>
-                        <div class="container col-10 position-relative mb-5">
+                        <div class="container col-9 position-relative mb-5">
                             <!-- card m. donation -->
                             <div class="card text-center">
-                                <div class="card-body">
-                                    <h2>ET JULETRÆ</h2>
+                                <div class="card-body d-flex flex-column align-items-end">
+                                    <h2 class="text-darkgreen">ET JULETRÆ</h2>
                                     <p>1 x juletræ til en børnefamilie</p>
-                                    <div class="btn btn-darkgreen">
+                                    <div class="btn btn-darkgreen mx-3">
                                         <a href="" style="color:#ffd300">VÆLG</a>
                                     </div>
                                 </div>
@@ -86,48 +86,48 @@ require "settings/init.php";
 
                             <!-- Gave ikon -->
                             <div id="" class="position-absolute top-50 start-0 translate-middle">
-                                <img src="images/gave150.png" alt="Gave icon 150kr" style="width: 150px">
+                                <img src="images/gave150.png" alt="Gave icon 150kr" class="img-fluid" style="width: 150px">
                             </div>
                         </div>
                     </div>
 
                 <!-- card m. donation 800kr-->
                 <div>
-                    <div class="container col-10 position-relative mb-5">
+                    <div class="container col-9 position-relative mb-5">
                         <!-- card m. donation -->
                         <div class="card text-center">
-                            <div class="card-body ">
-                                <h2>EN JULEMIDDAG</h2>
+                            <div class="card-body d-flex flex-column align-items-start">
+                                <h2 class="text-darkgreen">EN JULEMIDDAG</h2>
                                 <p>1 x gavekort til rema1000</p>
-                                <div class="btn btn-darkgreen">
+                                <div class="btn btn-darkgreen mx-3">
                                     <a href="" style="color:#ffd300">VÆLG</a>
                                 </div>
                             </div>
                         </div>
                         <!-- Gave ikon -->
-                        <div id="" class="position-absolute top-50 start-100 translate-middle">
-                            <img src="images/gave800.png" alt="Gave icon 800kr" style="width: 150px">
+                        <div id="" class="position-absolute top-50 left translate-middle">
+                            <img src="images/gave800.png" alt="Gave icon 800kr" style="width: 140px">
                         </div>
                     </div>
                 </div>
 
                 <!-- card m. donation 1500kr-->
                 <div>
-                    <div class="container col-10 position-relative mb-5">
+                    <div class="container col-9 position-relative mb-5 mt-1">
                         <!-- card m. donation -->
                         <div class="card text-center">
-                            <div class="card-body">
-                                <h2>EN FULD JULEAFTEN</h2>
-                                <p>1 x juletræ, 1 x gavekort til rema1000, 1 x julegave til barn</p>
-                                <div class="btn btn-darkgreen">
+                            <div class="card-body d-flex flex-column align-items-end">
+                                <h2 class="text-darkgreen">EN FULD JULEAFTEN</h2>
+                                <p class="text-end">1 x juletræ,<br> 1 x julemiddag, 1 x julegave</p>
+                                <div class="btn btn-darkgreen mx-3">
                                     <a href="" style="color:#ffd300">VÆLG</a>
                                 </div>
                             </div>
                         </div>
 
                         <!-- Gave ikon -->
-                        <div id="" class="position-absolute top-50 start-0 translate-middle">
-                            <img src="images/gave1500.png" alt="Gave icon 1500kr" style="width: 150px">
+                        <div id="" class="position-absolute top-50 left1500 translate-middle">
+                            <img src="images/gave1500.png" alt="Gave icon 1500kr" class="img-fluid" style="width: 150px">
                         </div>
                     </div>
                 </div>
@@ -167,7 +167,7 @@ require "settings/init.php";
                 <p class="text-darkgreen text-center fs-3" id="typewriter2"></p>
                 <div class="text-end"><i class="fa-solid fa-quote-right fa-2xl py-3" style="color: #ffd300;"></i></div>
                 <p class="text-center text-darkgreen fs-5 p-3"><i class="fa-solid fa-minus" style="color: #ffd300;"></i>
-                    Line, 30 år, mor til Liwa, 3 år & Arlo, 1 år.</p>
+                    Mor, 39 år & 2 drenge på 4 og 7 år</p>
             </div>
 <!--Infografik-->
             <div class="col-12 container-fluid py-4">
