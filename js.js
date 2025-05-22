@@ -97,14 +97,14 @@ function animateCountUp(elementId, target, duration) {
 
 //starter animationen: tæller op til 23.405.313 på 5 sekunder, starter efter et halvt sekund//
 setTimeout(() => {
-animateCountUp("counter", 23405313, 5000);
-}, 500);
+animateCountUp("counter", 23405313, 4000);
+}, 5000);
 
 
 //starter animationen: tæller op til 23.590 på 5 sekunder, starter efter et halvt sekundt//
 setTimeout(() => {
-animateCountUp("counter1", 23590, 5000);
-}, 500);
+animateCountUp("counter1", 23590, 4000);
+}, 5000);
 
 //tælle op og ned funktion//
 const plus = document.querySelector(".plus");
