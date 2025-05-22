@@ -29,20 +29,20 @@ require "settings/init.php";
 </div>
 
 <div class="container-fluid p-0">
-<!--Landingpage video-->
+    <!--Landingpage video-->
     <div class="container-fluid banner m-0 p-0 d-flex flex-wrap overflow-hidden">
         <video autoplay muted loop class="videobg w-100 object-fit-cover position-absolute top-0 bottom-0 z-0">
             <source src="video/herovideo.mp4" type="video/mp4">
         </video>
 
-<!--Navbaren-->
+        <!--Navbaren-->
         <div class="col-12 z-2">
             <?php
             include 'includes/navbar.php';
             ?>
         </div>
 
-<!--Landingpage-->
+        <!--Landingpage-->
         <div class=" col-12 tekst1 d-flex justify-content-center align-items-center flex-wrap flex-column h-100 z-1 position-relative">
             <div><h1 class="text-yellow text-center instru">Vi har indsamlet</h1></div>
             <div><h1 id="counter" class="text-yellow text-center instru fstal">0</h1></div>
@@ -54,9 +54,10 @@ require "settings/init.php";
         </div>
     </div>
 
-<!--citat m. typewriter-->
+
     <div class="container-fluid">
         <div class="row">
+            <!--citat m. typewriter-->
             <div class="col-12 bg-darkgreen py-5 px-2">
                 <i class="fa-solid fa-quote-left fa-2xl py-3" style="color: #ffd300;"></i>
                 <p class="text-white text-center fs-3" id="typewriter"></p>
@@ -65,31 +66,31 @@ require "settings/init.php";
                     Line, 30 år, mor til Liwa, 3 år & Arlo, 1 år.</p>
             </div>
 
-<!--Cards m. pakkeløsning-->
+            <!--Cards m. pakkeløsning-->
             <div class="col-12 px-4">
                 <h2 class="text-darkgreen text text-center py-4 fs-1">GIV EN JULEGAVE</h2>
             </div>
             <div>
                 <!-- card m. donation 150kr-->
-                    <div>
-                        <div class="container col-9 position-relative mb-5">
-                            <!-- card m. donation -->
-                            <div class="card text-center">
-                                <div class="card-body d-flex flex-column align-items-end">
-                                    <h2 class="text-darkgreen">ET JULETRÆ</h2>
-                                    <p>1 x juletræ til en børnefamilie</p>
-                                    <div class="btn btn-darkgreen mx-3">
-                                        <a href="" style="color:#ffd300">VÆLG</a>
-                                    </div>
+                <div>
+                    <div class="container col-9 position-relative mb-5">
+                        <!-- card m. donation -->
+                        <div class="card text-center">
+                            <div class="card-body d-flex flex-column align-items-end">
+                                <h2 class="text-darkgreen">ET JULETRÆ</h2>
+                                <p>1 x juletræ til en børnefamilie</p>
+                                <div class="btn btn-darkgreen mx-3">
+                                    <a href="" style="color:#ffd300">VÆLG</a>
                                 </div>
                             </div>
+                        </div>
 
-                            <!-- Gave ikon -->
-                            <div id="" class="position-absolute top-50 start-0 translate-middle">
-                                <img src="images/gave150.png" alt="Gave icon 150kr" class="img-fluid" style="width: 150px">
-                            </div>
+                        <!-- Gave ikon -->
+                        <div id="" class="position-absolute top-50 start-0 translate-middle">
+                            <img src="images/gave150.png" alt="Gave icon 150kr" class="img-fluid" style="width: 150px">
                         </div>
                     </div>
+                </div>
 
                 <!-- card m. donation 800kr-->
                 <div>
@@ -127,24 +128,47 @@ require "settings/init.php";
 
                         <!-- Gave ikon -->
                         <div id="" class="position-absolute top-50 left1500 translate-middle">
-                            <img src="images/gave1500.png" alt="Gave icon 1500kr" class="img-fluid" style="width: 150px">
+                            <img src="images/gave1500.png" alt="Gave icon 1500kr" class="img-fluid"
+                                 style="width: 150px">
                         </div>
                     </div>
                 </div>
             </div>
 
-<!--Nillo bog-->
+            <!--QR-kode card-->
+
+            <div class="col-12 py-4">
+                <div class="container position-relative py-4">
+                    <div class="row justify-content-center">
+                        <div class="col-8 card position-relative text-center">
+                            <h3 class="py-3">Bestem selv</h3>
+                            <p>Scan QR-koden eller på <span class="text text-red fs-5">13221</span><br>og støt valgfrit med MobilePay.</p>
+                        </div>
+                        <div class="position-absolute top-50 start-0 translate-middle-y">
+                            <img src="images/nillo.png" class="img-fluid" style="width: 110px;" alt="Nillo nisse">
+                        </div>
+                        <div class="position-absolute top-50 leftQR translate-middle">
+                            <img src="images/QRbg.png" class="img-fluid" style="width: 100px;" alt="QR-kode">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Nillo bog-->
             <div class="container-fluid bg-darkgreen py-4">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-12 py-4 text-center text-white">
                         <h2>NISSEN MED DET DELTE HJERTE</h2>
-                        <p><i class="fa-solid fa-minus" style="color: #ffd300;"></i> <span class="text-yellow">en julekalender på 24 kapitler</span></p>
+                        <p><i class="fa-solid fa-minus" style="color: #ffd300;"></i> <span class="text-yellow">en julekalender på 24 kapitler</span>
+                        </p>
                     </div>
                     <div class="col-6 p-3">
                         <img src="images/Bogomslag.png" class="img-fluid" alt="Bogomslag">
                     </div>
                     <div class="col-6 text-white py-4 fs-5">
-                        <p>En hjertevarm julefortælling om at <span class="text-yellow">modtage</span> og <span class="text-yellow">give videre</span>.</p>
+                        <p>En hjertevarm julefortælling om at <span class="text-yellow">modtage</span> og <span
+                                    class="text-yellow">give videre</span>.</p>
                     </div>
                     <div class="py-4 d-flex">
                         <div class="col-6 d-flex justify-content-center align-items-center">
@@ -161,7 +185,7 @@ require "settings/init.php";
                 </div>
             </div>
 
-<!--Citat m. tyoewriter-->
+            <!--Citat m. tyoewriter-->
             <div class="col-12 py-5 px-2">
                 <i class="fa-solid fa-quote-left fa-2xl py-3" style="color: #ffd300;"></i>
                 <p class="text-darkgreen text-center fs-3" id="typewriter2"></p>
@@ -169,18 +193,18 @@ require "settings/init.php";
                 <p class="text-center text-darkgreen fs-5 p-3"><i class="fa-solid fa-minus" style="color: #ffd300;"></i>
                     Mor, 39 år & 2 drenge på 4 og 7 år</p>
             </div>
-<!--Infografik-->
+            <!--Infografik-->
             <div class="col-12 container-fluid py-4">
                 <img src="images/infografik1.png" alt="infografik" class="img-fluid">
             </div>
 
-<!--Sløjfe -->
-                <div class="bowbanner col-12 position-relative d-inline-block mt-5">
-                    <div class="col-3 position-absolute top-50 start-50 translate-middle">
-                        <img src="images/bowVandret.png" alt="Sløjfe" class="img-fluid pt-4 mt-1">
-                    </div>
+            <!--Sløjfe -->
+            <div class="bowbanner col-12 position-relative d-inline-block mt-5">
+                <div class="col-3 position-absolute top-50 start-50 translate-middle">
+                    <img src="images/bowVandret.png" alt="Sløjfe" class="img-fluid pt-4 mt-1">
                 </div>
-<!--Tænd et lys i mørjet billede-->
+            </div>
+            <!--Tænd et lys i mørjet billede-->
             <div class="col-12 bgimg py-5 text-center text-white d-flex flex-column justify-content-center align-items-center">
                 <h2 class="mt-3">TÆND ET LYS I MØRKET</h2>
                 <p><i class="fa-solid fa-minus" style="color: #ffd300;"></i> støt en familie i dag</p>
