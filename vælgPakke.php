@@ -68,10 +68,10 @@ require "settings/init.php";
                 </li>
             </ul>
 
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="lille-tab-pane" role="tabpanel" aria-labelledby="lille-tab"
+            <div class="tab-content " id="myTabContent">
+                <div class="tab-pane fade show active " id="lille-tab-pane" role="tabpanel" aria-labelledby="lille-tab"
                      tabindex="0">
-                    <div class="container bg-white border-white">
+                    <div class="container bg-white border-white rounded-bottom-3 rounded-end-3">
                         <div class="row justify-content-center">
                             <div class="col-5 p-3 d-flex justify-content-center align-items-center">
                                 <img src="images/juletra.png" class="img-fluid w-75" alt="Juletræ">
@@ -165,7 +165,7 @@ require "settings/init.php";
 
                 <div class="tab-pane fade" id="mellem-tab-pane" role="tabpanel" aria-labelledby="mellem-tab"
                      tabindex="0">
-                    <div class="container bg-white border-white">
+                    <div class="container bg-white border-white rounded-3">
                         <div class="row justify-content-center">
                             <div class="col-5 p-3 mt-3 d-flex justify-content-center align-items-center">
                                 <img src="images/middag.png" class="img-fluid w-75" alt="Juletræ">
@@ -256,7 +256,7 @@ require "settings/init.php";
                     </div>
                 </div>
                 <div class="tab-pane fade" id="stor-tab-pane" role="tabpanel" aria-labelledby="stor-tab" tabindex="0">
-                    <div class="container bg-white border-white">
+                    <div class="container bg-white border-white rounded-3">
                         <div class="row justify-content-center">
                             <div class="col-6 pt-3 d-flex justify-content-center align-items-center">
                                 <img src="images/fuld.png" class="img-fluid w-75" alt="Juletræ">
@@ -350,7 +350,7 @@ require "settings/init.php";
                     </div>
                 </div>
                 <div class="tab-pane fade" id="frit-tab-pane" role="tabpanel" aria-labelledby="frit-tab" tabindex="0">
-                    <div class="container bg-white border-white">
+                    <div class="container bg-white border-white rounded-3">
                         <div class="row justify-content-center">
 
                             <div class="col-12 p-3 d-flex justify-content-center align-items-center text-darkgreen">
@@ -446,7 +446,7 @@ require "settings/init.php";
                 </div>
                 <div class="tab-pane fade" id="erhverv-tab-pane" role="tabpanel" aria-labelledby="erhverv-tab"
                      tabindex="0">
-                    <div class="container bg-white border-white">
+                    <div class="container bg-white border-white rounded-3">
                         <div class="row justify-content-center">
 
                             <div class="col-12 p-3 d-flex justify-content-center align-items-center text-darkgreen">
