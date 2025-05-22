@@ -23,22 +23,26 @@ require "settings/init.php";
 </head>
 
 <body>
-
-<div class="container-fluid fixed-bottom flex-end">
+<!--til top funktion m. pil-->
+<div class="container-fluid position-absolute ">
     <i class="fa-solid fa-angles-up fa-2xl text-yellow pb-3" onclick="topFunction()" id="ToTop" title="Go to top"></i>
 </div>
 
 <div class="container-fluid p-0">
-
+<!--Landingpage video-->
     <div class="container-fluid banner m-0 p-0 d-flex flex-wrap overflow-hidden">
         <video autoplay muted loop class="videobg w-100 object-fit-cover position-absolute top-0 bottom-0 z-0">
             <source src="video/herovideo.mp4" type="video/mp4">
         </video>
+
+<!--Navbaren-->
         <div class="col-12 z-2">
             <?php
             include 'includes/navbar.php';
             ?>
         </div>
+
+<!--Landingpage-->
         <div class=" col-12 tekst1 d-flex justify-content-center align-items-center flex-wrap flex-column h-100 z-1 position-relative">
             <div><h1 class="text-yellow text-center">Vi har indsamlet</h1></div>
             <div><h1 id="counter" class="text-yellow text-center">0</h1></div>
@@ -49,6 +53,8 @@ require "settings/init.php";
                     href="#scrollspyNext"></a></div>
         </div>
     </div>
+
+<!--citat m. typewriter-->
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 bg-darkgreen py-5 px-2">
@@ -58,8 +64,11 @@ require "settings/init.php";
                 <p class="text-center text-white fs-5 p-3"><i class="fa-solid fa-minus" style="color: #ffd300;"></i>
                     Line, 30 år, mor til Liwa, 3 år & Arlo, 1 år.</p>
             </div>
+
+<!--Cards m. pakkeløsning-->
             <div class="col-12 px-4">
                 <h2 class="text-darkgreen text text-center py-3 fs-1">GIV EN JULEGAVE</h2>
+            </div>
             <div>
                 <!-- card m. donation 150kr-->
                     <div>
@@ -77,7 +86,7 @@ require "settings/init.php";
 
                             <!-- Gave ikon -->
                             <div id="" class="position-absolute top-50 start-0 translate-middle">
-                                <img src="images/gave150.png" alt="Gave icon 150kr" style="width: 100px">
+                                <img src="images/gave150.png" alt="Gave icon 150kr" style="width: 150px">
                             </div>
                         </div>
                     </div>
@@ -97,7 +106,7 @@ require "settings/init.php";
                         </div>
                         <!-- Gave ikon -->
                         <div id="" class="position-absolute top-50 start-100 translate-middle">
-                            <img src="images/gave800.png" alt="Gave icon 800kr" style="width: 100px">
+                            <img src="images/gave800.png" alt="Gave icon 800kr" style="width: 150px">
                         </div>
                     </div>
                 </div>
@@ -118,11 +127,13 @@ require "settings/init.php";
 
                         <!-- Gave ikon -->
                         <div id="" class="position-absolute top-50 start-0 translate-middle">
-                            <img src="images/gave1500.png" alt="Gave icon 1500kr" style="width: 100px">
+                            <img src="images/gave1500.png" alt="Gave icon 1500kr" style="width: 150px">
                         </div>
                     </div>
                 </div>
             </div>
+
+<!--Nillo bog-->
             <div class="container-fluid bg-darkgreen py-4">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-12 py-4 text-center text-white">
@@ -147,13 +158,15 @@ require "settings/init.php";
                             </div>
                         </div>
                         <div class="col-6 d-flex justify-content-center align-items-center ">
-                            <div class="btn btn-outline-yellow text  text-center py-2 w-75">
+                            <div class="btn btn-outline-yellow text text-center py-2 w-75">
                                 <a href="" class="text-decoration-none text-yellow">LÆS MERE</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+<!--Citat m. tyoewriter-->
             <div class="col-12 py-5 px-2">
                 <i class="fa-solid fa-quote-left fa-2xl py-3" style="color: #ffd300;"></i>
                 <p class="text-darkgreen text-center fs-3" id="typewriter2"></p>
@@ -161,11 +174,20 @@ require "settings/init.php";
                 <p class="text-center text-darkgreen fs-5 p-3"><i class="fa-solid fa-minus" style="color: #ffd300;"></i>
                     Line, 30 år, mor til Liwa, 3 år & Arlo, 1 år.</p>
             </div>
+<!--Infografik-->
             <div class="col-12 container-fluid py-4">
                 <img src="images/infografik1.png" alt="infografik" class="img-fluid">
             </div>
+
+<!--Sløjfe -->
+                <div class="bowbanner col-12 position-relative d-inline-block mt-5">
+                    <div class="col-3 position-absolute top-50 start-50 translate-middle">
+                        <img src="images/bowVandret.png" alt="Sløjfe" class="img-fluid pt-4 mt-1">
+                    </div>
+                </div>
+<!--Tænd et lys i mørjet billede-->
             <div class="col-12 bgimg py-5 text-center text-white d-flex flex-column justify-content-center align-items-center">
-                <h2>TÆND ET LYS I MØRKET</h2>
+                <h2 class="mt-3">TÆND ET LYS I MØRKET</h2>
                 <p><i class="fa-solid fa-minus" style="color: #ffd300;"></i> støt en familie i dag</p>
                 <div class="col-6 py-5 d-flex flex-column justify-content-center align-items-center">
 
