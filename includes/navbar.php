@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container d-md-none d-lg-none">
     <div class="row justify-content-between">
         <div class="col-3 px-4 py-3">
             <img src="../images/LogoGulTrans.png" alt="Lille logo" class="img-fluid">
@@ -25,3 +25,40 @@
         </div>
     </div>
 </div>
+<!-- Navigationsbar til md og lg skærme -->
+<div class="container">
+    <div class="row">
+        <nav class="navbar navbar-expand-md navbar-expand-lg position-absolute top-0 start-0 w-100 px-4 py-3">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="../images/LogoGulTrans.png" alt="Logo" class="img-fluid" style="max-height: 40px;">
+                </a>
+
+                <!-- Navigation -->
+                <div class="d-none d-md-flex d-lg-flex">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-yellow fw-bold px-3 text-uppercase" href="#">Giv et bidrag</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-yellow fw-bold px-3 text-uppercase" href="#">Hvad er julehjælp?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-yellow fw-bold px-3 text-uppercase" href="#">Årets børnebog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-yellow fw-bold px-3 text-uppercase" href="#">Om os</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-yellow fw-bold px-3 text-uppercase" href="#">Kontakt os</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+    </div>
+</div>
+
