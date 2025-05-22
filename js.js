@@ -29,10 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 document.addEventListener("DOMContentLoaded", function() {
     let i = 0;
-    let txt = 'Jeres hjælp til vores lille familie, mine tre sønner og mig, betyder, ' +
-        'at vi kan få en julemiddag med alt det, der hører til, et lille juletræ, ' +
-        'og der er en pakke under træet til hver af mine skønne drenge. ' +
-        'Jeres julehjælp er det, der gør det muligt at holde jul for mine drenge.'
+    let txt = 'Jeres hjælp betyder, at mine tre sønner og jeg kan få en rigtig julemiddag, et lille juletræ og en gave til hver af mine drenge. Uden julehjælpen kunne vi ikke holde jul.'
     let speed = 50;
     function typeWriter2() {
         if (i < txt.length) {
