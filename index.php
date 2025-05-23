@@ -47,10 +47,14 @@ require "settings/init.php";
             <div><h1 class="text-yellow text-center instru">Vi har indsamlet</h1></div>
             <div><h1 id="counter" class="text-yellow text-center instru fstal">0</h1></div>
             <div><h1 class="text-yellow text-center instru">til</h1></div>
-            <div><h1 id="counter1" class="text-yellow text-center instru fstal">0</h1></div>
-            <div><h1 class="text-yellow text-center instru">børnefamilier</h1></div>
-            <div><a class="fa-solid fa-chevron-down fa-beat-fade fa-2xl text-center text-yellow fs-1 p-3"
-                    href="#scrollspyNext"></a></div>
+            <div><h1 id="counter1" class="text-yellow text-center instru fstal pb-5">0</h1></div>
+
+
+            <div class="col-6 d-flex justify-content-center align-items-center pt-5">
+                <div class="btn btn-outline-yellow text text-center py-2 w-75">
+                    <a href="" class="text-decoration-none text-yellow">STØT HER</a>
+                </div>
+            </div>
         </div>
     </div>
 
