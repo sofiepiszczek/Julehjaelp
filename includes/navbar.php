@@ -2,7 +2,7 @@
 <div class="container d-md-none d-lg-none">
     <div class="row justify-content-between">
         <div class="col-3 px-4 py-3">
-            <img src="../images/LogoGulTrans.png" alt="Lille logo" class="img-fluid">
+            <a href="/index.php"><img src="../images/LogoGulTrans.png" alt="Lille logo" class="img-fluid"></a>
         </div>
         <div class="col-3 py-4 d-flex align-items-center justify-content-center">
             <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars fa-2xl text-yellow"></i></button>
