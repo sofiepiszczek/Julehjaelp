@@ -80,7 +80,7 @@ require "settings/init.php";
                         </div>
                         <div class="col-12 text-center">
                             <div class="btn btn-outline-white px-3 py-2 ">
-                                <a href="" class="text text-white">TILBAGE</a>
+                                <a href="index.php" class="text text-white">TILBAGE</a>
                             </div>
                         </div>
                     </div>
