@@ -55,7 +55,7 @@ require "settings/init.php";
                             https://getbootstrap.com/docs/5.3/forms/input-group/-->
                             <button class="minus btn btn-outline-white" type="button"><i class="fa-solid fa-minus"></i>
                             </button>
-                            <input type="text" class="tal form-control text-center" value="1"
+                            <input type="text" class="tal form-control text-center fs-3" value="1"
                                    aria-label="amount of books wanted">
                             <button class="plus btn btn-outline-white" type="button"><i class="fa-solid fa-plus"></i>
                             </button>
@@ -92,7 +92,7 @@ require "settings/init.php";
                                         <div class="modal-body">
                                             <div class="position-absolute start-50 translate-middle-x"
                                                  style="top: -100px;">
-                                                <img src="images/juletra.png" alt="Gave icon 150kr"
+                                                <img src="images/juletra.png" alt="juletræ icon"
                                                      class="img-fluid">
                                             </div>
                                             <div class="text-center mt-5 pt-5">
