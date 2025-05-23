@@ -1,4 +1,4 @@
-
+// Typewriter js.
 document.addEventListener("DOMContentLoaded", function() {
     let i = 0;
     let txt = 'Hvis jeg får tildelt Julehjælp, så kan jeg holde en klassisk jul ' +
