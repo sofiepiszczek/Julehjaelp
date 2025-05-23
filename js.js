@@ -95,18 +95,19 @@ function animateCountUp(elementId, target, duration) {
     requestAnimationFrame(update);
 }
 
-//starter animationen: tæller op til 23.405.313 på 5 sekunder, starter efter et halvt sekund//
+//starter animation 1: tæller op til 23.405.313 på 5 sekunder, starter efter et halvt sekund//
 setTimeout(() => {
 animateCountUp("counter", 23405313, 5000);
 }, 500);
 
 
-//starter animationen: tæller op til 23.590 på 5 sekunder, starter efter et halvt sekundt//
+//starter animation 2: tæller op til 23.590 på 5 sekunder, starter efter et halvt sekundt//
 setTimeout(() => {
 animateCountUp("counter1", 23590, 5000);
 }, 500);
 
-//tælle op og ned funktion//
+
+//tælle op og ned funktion, ved click på plus og minus//
 const plus = document.querySelector(".plus");
 const minus = document.querySelector(".minus");
 const tal = document.querySelector(".tal");
@@ -115,13 +116,8 @@ const tal = document.querySelector(".tal");
 plus.addEventListener("click", () => {
     const nyttal = parseInt(tal.value) + 1;
 
-    if(nyttal <=11){
-        tal.value = nyttal;
-    }
-});
-minus.addEventListener("click", () => {
-    const nyttal = parseInt(tal.value) - 1;
-    if(nyttal>0){
+    //limit på antal bøger der kan købes er 100//
+    if(nyttal <=100){
         tal.value = nyttal;
     }
 });
