@@ -253,12 +253,12 @@ require "settings/init.php";
                     <div class="col-12 py-4 d-flex">
                         <div class="col-6 d-flex justify-content-center align-items-center">
                             <div class="btn btn-yellow text  text-center py-2 w-75 ">
-                                <a href="" class="text-decoration-none text-darkgreen">KØB HER</a>
+                                <a href="nillobook.php" class="text-decoration-none text-darkgreen">KØB HER</a>
                             </div>
                         </div>
                         <div class="col-6 d-flex justify-content-center align-items-center ">
                             <div class="btn btn-outline-yellow text text-center py-2 w-75">
-                                <a href="" class="text-decoration-none text-yellow">LÆS MERE</a>
+                                <a href="nillobook.php" class="text-decoration-none text-yellow">LÆS MERE</a>
                             </div>
                         </div>
                     </div>
