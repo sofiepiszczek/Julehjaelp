@@ -75,9 +75,43 @@ require "settings/init.php";
 
                     <!--CTA knapper til køb og tilbage-->
                     <div class="col-12 text-center">
-                        <div class="btn bg-yellow px-3 py-2 mb-4">
-                            <a href="" class="text text-white">FORTSÆT</a>
-                        </div>
+                        <!-- Tak-modal -->
+                        <div class="col-12 text-center">
+                            <!-- Button trigger modal -->
+                            <button type="button"
+                                    class="btn bg-yellow px-3 py-2 mb-4"
+                                    data-bs-toggle="modal" data-bs-target="#nilloModal">
+                                FORTSÆT
+                            </button>
+
+                            <!-- MODAL -->
+                            <div class="modal fade" id="nilloModal" tabindex="-1" aria-labelledby="nilloModalLabel"
+                                 aria-hidden="true">
+                                <div class="modal-dialog takmttop mx-4">
+                                    <div class="modal-content position-relative">
+                                        <div class="modal-body">
+                                            <div class="position-absolute start-50 translate-middle-x"
+                                                 style="top: -100px;">
+                                                <img src="images/juletra.png" alt="Gave icon 150kr"
+                                                     class="img-fluid">
+                                            </div>
+                                            <div class="text-center mt-5 pt-5">
+                                                <h1 class="tak text-darkgreen py-3">TAK!</h1>
+                                                <div class="btn bg-darkgreen m-3 text-center px-3">
+                                                    <a href="#"
+                                                       class="text-yellow text-decoration-none">FORSTÅET</a>
+                                                </div>
+                                                <button type="button"
+                                                        class="btn btn-outline-darkgreen text-darkgreen text-center m-3 px-3"
+                                                        data-bs-dismiss="modal">
+                                                    TILBAGE
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         <div class="col-12 text-center">
                             <div class="btn btn-outline-white px-3 py-2 ">
                                 <a href="index.php" class="text text-white">TILBAGE</a>
