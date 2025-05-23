@@ -28,8 +28,8 @@ require "settings/init.php";
     <i class="fa-solid fa-angles-up fa-2xl text-yellow pb-3" onclick="topFunction()" id="ToTop" title="Go to top"></i>
 </div>
 
+<!--Landingpage video-->
 <div class="container-fluid p-0">
-    <!--Landingpage video-->
     <div class="container-fluid banner m-0 p-0 d-flex flex-wrap overflow-hidden">
         <video autoplay muted loop class="videobg w-100 object-fit-cover position-absolute top-0 bottom-0 z-0">
             <source src="video/herovideo.mp4" type="video/mp4">
@@ -42,7 +42,7 @@ require "settings/init.php";
             ?>
         </div>
 
-        <!--Landingpage-->
+        <!--Landingpage m. indsamlings tal-->
         <div class=" col-12 tekst1 d-flex justify-content-center align-items-center flex-wrap flex-column h-100 z-1 position-relative">
             <div><h1 class="text-yellow text-center instru">Vi har indsamlet</h1></div>
             <div><h1 id="counter" class="text-yellow text-center instru fstal">0</h1></div>
@@ -54,7 +54,7 @@ require "settings/init.php";
         </div>
     </div>
 
-
+    <!--Citat-->
     <div class="container-fluid">
         <div class="row">
             <!--citat m. typewriter-->
@@ -62,7 +62,8 @@ require "settings/init.php";
                 <div class="col-12 col-md-10 col-lg-8">
                     <i class="fa-solid fa-quote-left fa-2xl py-3" style="color: #ffd300;"></i>
                     <p class="text-white text-center fs-3" id="typewriter"></p>
-                    <div class="text-end"><i class="fa-solid fa-quote-right fa-2xl py-3" style="color: #ffd300;"></i></div>
+                    <div class="text-end"><i class="fa-solid fa-quote-right fa-2xl py-3" style="color: #ffd300;"></i>
+                    </div>
                     <p class="text-center text-white fs-5 p-3"><i class="fa-solid fa-minus" style="color: #ffd300;"></i>
                         Line, 30 år, mor til Liwa, 3 år & Arlo, 1 år.</p>
                 </div>
@@ -154,7 +155,8 @@ require "settings/init.php";
 
                                 <!-- Gave ikon -->
                                 <div id="" class="position-absolute top-0 start-50 translate-middle">
-                                    <img src="images/gave150.png" alt="Gave icon 150kr" class="img-fluid" style="width: 150px">
+                                    <img src="images/gave150.png" alt="Gave icon 150kr" class="img-fluid"
+                                         style="width: 150px">
                                 </div>
                             </div>
                         </div>
@@ -207,19 +209,24 @@ require "settings/init.php";
             </div>
 
             <!--QR-kode card-->
-            <div class="col-12 py-4">
-                <div class="container position-relative py-4">
-                    <div class="row justify-content-center">
-                        <div class="col-8 col-lg-7 card position-relative text-center">
-                            <h3 class="py-3">Bestem selv</h3>
-                            <p>Scan QR-koden eller på <span class="text text-red fs-5">13221</span><br>og støt valgfrit med MobilePay.</p>
+            <div>
+                <div class="container col-9 col-md-6 d-lg-none position-relative mb-5">
+                    <!-- card m. donation -->
+                    <div class="card text-center">
+                        <div class="card-body d-flex flex-column align-items-center ps-md-4">
+                            <h2 class="py-3">Bestem selv</h2>
+                            <p>Scan QR-koden eller på <span class="text text-red fs-5">13221</span><br>og støt valgfrit
+                                med MobilePay.</p>
                         </div>
-                        <div class="position-absolute top-50 start-0 translate-middle-y">
-                            <img src="images/nillo.png" class="img-fluid" style="width: 110px;" alt="Nillo nisse">
+                        <!-- Nillo billede -->
+                        <div id="" class="position-absolute top-50 start-0 translate-middle">
+                            <img src="images/nillo.png" alt="Nillo" class="img-fluid" style="width: 100px">
                         </div>
-                        <div class="position-absolute top-50 left translate-middle">
-                            <img src="images/QRbg.png" class="img-fluid" style="width: 100px;" alt="QR-kode">
-                        </div>
+
+                    </div>
+                    <!-- QR koden -->
+                    <div id="" class="position-absolute top-50 left translate-middle-y">
+                        <img src="images/QRbg.png" alt="QR-kode" style="width: 90px">
                     </div>
                 </div>
             </div>
@@ -259,8 +266,10 @@ require "settings/init.php";
                 <div class="col-12 col-md-10 col-lg-8">
                     <i class="fa-solid fa-quote-left fa-2xl py-3" style="color: #ffd300;"></i>
                     <p class="text-darkgreen text-center fs-3" id="typewriter2"></p>
-                    <div class="text-end"><i class="fa-solid fa-quote-right fa-2xl py-3" style="color: #ffd300;"></i></div>
-                    <p class="text-center text-darkgreen fs-5 p-3"><i class="fa-solid fa-minus" style="color: #ffd300;"></i>
+                    <div class="text-end"><i class="fa-solid fa-quote-right fa-2xl py-3" style="color: #ffd300;"></i>
+                    </div>
+                    <p class="text-center text-darkgreen fs-5 p-3"><i class="fa-solid fa-minus"
+                                                                      style="color: #ffd300;"></i>
                         Mor, 39 år & 2 drenge på 4 og 7 år</p>
                 </div>
             </div>
@@ -303,7 +312,6 @@ require "settings/init.php";
 </footer>
 
 </body>
-
 
 
 </html>
