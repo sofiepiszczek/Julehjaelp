@@ -136,7 +136,7 @@ require "settings/init.php";
                     </div>
                 </div>
                 <!-- lg-skærm -->
-                <div class="container d-sm-none d-md-none d-lg-block mt-5">
+                <div class="container d-none d-md-none d-lg-block mt-5">
                     <div class="row">
                         <div class="col-4">
                             <!-- card m. donation 150kr-->
@@ -217,7 +217,7 @@ require "settings/init.php";
                         <div class="position-absolute top-50 start-0 translate-middle-y">
                             <img src="images/nillo.png" class="img-fluid" style="width: 110px;" alt="Nillo nisse">
                         </div>
-                        <div class="position-absolute top-50 leftQR translate-middle">
+                        <div class="position-absolute top-50 left translate-middle">
                             <img src="images/QRbg.png" class="img-fluid" style="width: 100px;" alt="QR-kode">
                         </div>
                     </div>
