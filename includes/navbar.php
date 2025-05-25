@@ -1,5 +1,5 @@
 <!-- Navigationsbar til sm skærme -->
-<div class="container d-md-none d-lg-none">
+<div class="container d-lg-none">
     <div class="row justify-content-between">
         <div class="col-3 px-4 py-3">
             <a href="/index.php"><img src="../images/LogoGulTrans.png" alt="Lille logo" class="img-fluid"></a>
@@ -26,13 +26,13 @@
         </div>
     </div>
 </div>
-<!-- Navigationsbar til md og lg skærme -->
-<div class="container d-none d-md-inline-block d-lg-inline-block px-md-0">
+<!-- Navigationsbar til lg skærme -->
+<div class="container d-none d-lg-inline-block px-md-0">
     <div class="row">
         <nav class="navbar px-4 px-md-0 py-3 w-100">
             <div class="container-fluid d-flex justify-content-between align-items-center w-100 px-md-0">
                 <!-- Logo -->
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand ps-5" href="index.php">
                     <img src="../images/LogoGulTrans.png" alt="Logo" class="img-fluid" style="max-height: 40px;">
                 </a>
 
