@@ -278,7 +278,7 @@ require "settings/init.php";
                 </div>
             </div>
             <!--Infografik-->
-            <div class="col-12 container-fluid py-4">
+            <div class="col-12 col-lg-10 container-fluid py-4">
                 <img src="images/infografik1.png" alt="infografik" class="img-fluid">
             </div>
 
