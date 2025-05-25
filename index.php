@@ -140,6 +140,7 @@ require "settings/init.php";
                         </div>
                     </div>
                 </div>
+
                 <!-- lg-skærm -->
                 <div class="container d-none d-md-none d-lg-block mt-5">
                     <div class="row">
@@ -214,7 +215,7 @@ require "settings/init.php";
 
             <!--QR-kode card-->
             <div>
-                <div class="container col-9 col-md-6 d-lg-none position-relative mb-5">
+                <div class="container col-9 col-md-6 position-relative mb-5 mt-5">
                     <!-- card m. donation -->
                     <div class="card text-center">
                         <div class="card-body d-flex flex-column align-items-center ps-md-4">
@@ -277,6 +278,7 @@ require "settings/init.php";
                         Mor, 39 år & 2 drenge på 4 og 7 år</p>
                 </div>
             </div>
+
             <!--Infografik-->
             <div class="col-12 col-lg-10 container-fluid py-4">
                 <img src="images/infografik1.png" alt="infografik" class="img-fluid">
