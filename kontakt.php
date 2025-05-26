@@ -30,10 +30,10 @@ require "settings/init.php";
             include 'includes/navbar.php';
             ?>
         </div>
-        <div class="col-12 py-3">
+        <div class="col-12 py-3 py-md-5 py-lg-5">
             <h1 class="text-darkgreen text-center">KONTAKT OS</h1>
         </div>
-        <div class="col-10">
+        <div class="col-10 col-lg-8">
             <div class="container-fluid bg-grey rounded-2 p-0">
                 <!--Sløjfe -->
                 <div class="bowbanner col-12 position-relative d-inline-block mb-5 rounded-top-2">

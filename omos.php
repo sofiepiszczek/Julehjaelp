@@ -30,18 +30,18 @@ require "settings/init.php";
             include 'includes/navbar.php';
             ?>
         </div>
-        <div class="col-12 py-3">
+        <div class="col-12 py-3 py-md-5 py-lg-5">
             <h1 class="text-darkgreen text-center">OM OS</h1>
         </div>
         <div class="col-10">
             <div class="container-fluid bg-grey rounded-2 px-0">
                 <!--Sløjfe -->
                 <div class="bowbanner col-12 position-relative d-inline-block mb-5 rounded-top-2">
-                    <div class="col-3 position-absolute top-50 start-50 translate-middle">
+                    <div class="col-3 col-md-2 position-absolute top-50 start-50 translate-middle">
                         <img src="images/bowVandret.png" alt="Sløjfe" class="img-fluid pt-4 mt-1">
                     </div>
                 </div>
-                <div class="row justify-content-center align-items-center">
+                <div class="row justify-content-center align-items-center mt-lg-2">
                     <div class="col-11">
                         <p>
                             Dansk Folkehjælp er en landsdækkende NGO, som arbejder for og med mennesker i
@@ -51,7 +51,7 @@ require "settings/init.php";
                             at skele til nationalitet, etnicitet eller religion.
                         </p>
                     </div>
-                    <div class="col-12 p-0">
+                    <div class="col-12 col-md-9 p-0">
                         <img src="images/OMOS.jpg" alt="Flygtningelejr" class="img-fluid object-fit-cover py-3">
                     </div>
                     <div class="col-11">
@@ -62,7 +62,7 @@ require "settings/init.php";
                             og Zambia, vi bygger skoler i Afghanistan og arbejder med genopbygning og rehabilitering i det krigshærgerede Ukraine.
                         </p>
                     </div>
-                    <div class="col-12 text-center py-3">
+                    <div class="col-12 text-center py-3 mb-3">
                         <div class="btn bg-darkgreen px-3 py-2 ">
                             <a href="" class="text text-yellow">HJÆLP OS MED AT HJÆLPE</a>
                         </div>
