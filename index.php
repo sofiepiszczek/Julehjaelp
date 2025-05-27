@@ -52,7 +52,7 @@ require "settings/init.php";
 
             <div class="col-6 d-flex justify-content-center align-items-center pt-5">
                 <div class="btn btn-outline-yellow text text-center py-2 w-75">
-                    <a href="" class="text-decoration-none text-yellow">STØT HER</a>
+                    <a href="vælgPakke.php" class="text-decoration-none text-yellow">STØT HER</a>
                 </div>
             </div>
         </div>
@@ -87,7 +87,7 @@ require "settings/init.php";
                                 <h2 class="text-darkgreen">ET JULETRÆ</h2>
                                 <p>1 x juletræ til en børnefamilie</p>
                                 <div class="btn btn-darkgreen mx-3">
-                                    <a href="vælgPakke.php#lille-tab-pane" style="color:#ffd300">VÆLG</a>
+                                    <a href="vælgPakke.php" style="color:#ffd300">VÆLG</a>
                                 </div>
                             </div>
                         </div>
@@ -108,7 +108,7 @@ require "settings/init.php";
                                 <h2 class="text-darkgreen">EN JULEMIDDAG</h2>
                                 <p>1 x gavekort til rema1000</p>
                                 <div class="btn btn-darkgreen mx-3">
-                                    <a href="vælgPakke.php#mellem-tab-pane" style="color:#ffd300">VÆLG</a>
+                                    <a href="vælgPakke.php" style="color:#ffd300">VÆLG</a>
                                 </div>
                             </div>
                         </div>
@@ -128,7 +128,7 @@ require "settings/init.php";
                                 <h2 class="text-darkgreen">EN FULD JULEAFTEN</h2>
                                 <p class="text-end">1 x juletræ,<br> 1 x julemiddag, 1 x julegave</p>
                                 <div class="btn btn-darkgreen mx-3">
-                                    <a href="vælgPakke.php#stor-tab-pane" style="color:#ffd300">VÆLG</a>
+                                    <a href="vælgPakke.php" style="color:#ffd300">VÆLG</a>
                                 </div>
                             </div>
                         </div>
@@ -153,7 +153,7 @@ require "settings/init.php";
                                         <h2 class="text-darkgreen py-3">ET JULETRÆ</h2>
                                         <p class="py-3">1 x juletræ til en børnefamilie</p>
                                         <div class="btn btn-darkgreen mx-3">
-                                            <a href="vælgPakke.php#lille-tab-pane" style="color:#ffd300">VÆLG</a>
+                                            <a href="vælgPakke.php" style="color:#ffd300">VÆLG</a>
                                         </div>
                                     </div>
                                 </div>
@@ -175,7 +175,7 @@ require "settings/init.php";
                                             <h2 class="text-darkgreen py-3">EN JULEMIDDAG</h2>
                                             <p class="py-3">1 x gavekort til rema1000</p>
                                             <div class="btn btn-darkgreen mx-3">
-                                                <a href="vælgPakke.php#mellem-tab-pane" style="color:#ffd300">VÆLG</a>
+                                                <a href="vælgPakke.php" style="color:#ffd300">VÆLG</a>
                                             </div>
                                         </div>
                                     </div>
@@ -189,14 +189,14 @@ require "settings/init.php";
                         <div class="col-4">
                             <!-- card m. donation 1500kr-->
                             <div>
-                                <div class="container position-relative my-3">
+                                <div class="container position-relative my-3 ">
                                     <!-- card m. donation -->
                                     <div class="card text-center pt-5">
                                         <div class="card-body d-flex flex-column align-items-center">
                                             <h2 class="text-darkgreen py-3">EN FULD JULEAFTEN</h2>
-                                            <p class="text-center py-3">1 x juletræ, 1 x julemiddag, 1 x julegave</p>
+                                            <p class="text-center">1 x juletræ, 1 x julemiddag, 1 x julegave</p>
                                             <div class="btn btn-darkgreen mx-3">
-                                                <a href="vælgPakke.php#stor-tab-pane" style="color:#ffd300">VÆLG</a>
+                                                <a href="vælgPakke.php" style="color:#ffd300">VÆLG</a>
                                             </div>
                                         </div>
                                     </div>
@@ -251,7 +251,7 @@ require "settings/init.php";
                         <p>En hjertevarm julefortælling om at <span class="text-yellow">modtage</span> og <span
                                     class="text-yellow">give videre</span>.</p>
                     </div>
-                    <div class="col-9 py-4 d-flex">
+                    <div class="col-12 py-4 d-flex">
                         <div class="col-6 d-flex justify-content-center align-items-center">
                             <div class="btn btn-yellow text  text-center py-2 w-75 ">
                                 <a href="nillobook.php" class="text-decoration-none text-darkgreen">KØB HER</a>
@@ -280,7 +280,7 @@ require "settings/init.php";
             </div>
 
             <!--Infografik-->
-            <div class="col-12 col-lg-9 container-fluid py-4">
+            <div class="col-12 col-lg-10 container-fluid py-4">
                 <img src="images/infografik1.png" alt="infografik" class="img-fluid">
             </div>
 
@@ -297,10 +297,10 @@ require "settings/init.php";
                 <div class="col-6 py-5 d-flex flex-column justify-content-center align-items-center">
 
                     <div class="btn btn-yellow text text-center py-2 my-3 ms-5">
-                        <a href="vælgPakke.php#frit-tab-pane" class="text-decoration-none text-darkgreen">PRIVATPERSON</a>
+                        <a href="vælgPakke.php" class="text-decoration-none text-darkgreen">PRIVATPERSON</a>
                     </div>
                     <div class="btn btn-yellow text text-center py-2 my-3 ms-5">
-                        <a href="vælgPakke.php#erhverv-tab-pane" class="text-decoration-none text-darkgreen">VIRKSOMHED</a>
+                        <a href="vælgPakke.php" class="text-decoration-none text-darkgreen">VIRKSOMHED</a>
                     </div>
                 </div>
             </div>
