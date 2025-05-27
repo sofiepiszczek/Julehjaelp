@@ -52,7 +52,7 @@ require "settings/init.php";
 
             <div class="col-6 d-flex justify-content-center align-items-center pt-5">
                 <div class="btn btn-outline-yellow text text-center py-2 w-75">
-                    <a href="" class="text-decoration-none text-yellow">STØT HER</a>
+                    <a href="vælgPakke.php" class="text-decoration-none text-yellow">STØT HER</a>
                 </div>
             </div>
         </div>
@@ -87,7 +87,7 @@ require "settings/init.php";
                                 <h2 class="text-darkgreen">ET JULETRÆ</h2>
                                 <p>1 x juletræ til en børnefamilie</p>
                                 <div class="btn btn-darkgreen mx-3">
-                                    <a href="" style="color:#ffd300">VÆLG</a>
+                                    <a href="vælgPakke.php" style="color:#ffd300">VÆLG</a>
                                 </div>
                             </div>
                         </div>
@@ -108,7 +108,7 @@ require "settings/init.php";
                                 <h2 class="text-darkgreen">EN JULEMIDDAG</h2>
                                 <p>1 x gavekort til rema1000</p>
                                 <div class="btn btn-darkgreen mx-3">
-                                    <a href="" style="color:#ffd300">VÆLG</a>
+                                    <a href="vælgPakke.php" style="color:#ffd300">VÆLG</a>
                                 </div>
                             </div>
                         </div>
@@ -128,7 +128,7 @@ require "settings/init.php";
                                 <h2 class="text-darkgreen">EN FULD JULEAFTEN</h2>
                                 <p class="text-end">1 x juletræ,<br> 1 x julemiddag, 1 x julegave</p>
                                 <div class="btn btn-darkgreen mx-3">
-                                    <a href="" style="color:#ffd300">VÆLG</a>
+                                    <a href="vælgPakke.php" style="color:#ffd300">VÆLG</a>
                                 </div>
                             </div>
                         </div>
@@ -153,7 +153,7 @@ require "settings/init.php";
                                         <h2 class="text-darkgreen py-3">ET JULETRÆ</h2>
                                         <p class="py-3">1 x juletræ til en børnefamilie</p>
                                         <div class="btn btn-darkgreen mx-3">
-                                            <a href="" style="color:#ffd300">VÆLG</a>
+                                            <a href="vælgPakke.php" style="color:#ffd300">VÆLG</a>
                                         </div>
                                     </div>
                                 </div>
@@ -175,7 +175,7 @@ require "settings/init.php";
                                             <h2 class="text-darkgreen py-3">EN JULEMIDDAG</h2>
                                             <p class="py-3">1 x gavekort til rema1000</p>
                                             <div class="btn btn-darkgreen mx-3">
-                                                <a href="" style="color:#ffd300">VÆLG</a>
+                                                <a href="vælgPakke.php" style="color:#ffd300">VÆLG</a>
                                             </div>
                                         </div>
                                     </div>
@@ -196,7 +196,7 @@ require "settings/init.php";
                                             <h2 class="text-darkgreen py-3">EN FULD JULEAFTEN</h2>
                                             <p class="text-center">1 x juletræ, 1 x julemiddag, 1 x julegave</p>
                                             <div class="btn btn-darkgreen mx-3">
-                                                <a href="" style="color:#ffd300">VÆLG</a>
+                                                <a href="vælgPakke.php" style="color:#ffd300">VÆLG</a>
                                             </div>
                                         </div>
                                     </div>
@@ -297,10 +297,10 @@ require "settings/init.php";
                 <div class="col-6 py-5 d-flex flex-column justify-content-center align-items-center">
 
                     <div class="btn btn-yellow text text-center py-2 my-3 ms-5">
-                        <a href="" class="text-decoration-none text-darkgreen">PRIVATPERSON</a>
+                        <a href="vælgPakke.php" class="text-decoration-none text-darkgreen">PRIVATPERSON</a>
                     </div>
                     <div class="btn btn-yellow text text-center py-2 my-3 ms-5">
-                        <a href="" class="text-decoration-none text-darkgreen">VIRKSOMHED</a>
+                        <a href="vælgPakke.php" class="text-decoration-none text-darkgreen">VIRKSOMHED</a>
                     </div>
                 </div>
             </div>
