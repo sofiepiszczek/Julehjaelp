@@ -46,7 +46,7 @@ require "settings/init.php";
         </div>
         <div class="col-12 d-flex justify-content-center py-4">
             <div class="btn btn-outline-white instru p-lg-2">
-                <a href="" class="text-decoration-none text-white fs">TILBAGE TIL FORSIDEN</a>
+                <a href="index.php" class="text-decoration-none text-white fs">TILBAGE TIL FORSIDEN</a>
             </div>
         </div>
     </div>
