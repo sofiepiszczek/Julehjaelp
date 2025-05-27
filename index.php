@@ -244,7 +244,7 @@ require "settings/init.php";
                         <p><i class="fa-solid fa-minus" style="color: #ffd300;"></i> <span class="text-yellow">en julekalender på 24 kapitler</span>
                         </p>
                     </div>
-                    <div class="col-6 col-lg-3 p-3">
+                    <div class="col-6 col-md-4 col-lg-3 p-3">
                         <img src="images/Bogomslag.png" class="img-fluid" alt="Bogomslag">
                     </div>
                     <div class="col-6 col-lg-3 text-white py-4 fs-5">
@@ -286,13 +286,13 @@ require "settings/init.php";
 
             <!--Sløjfe -->
             <div class="bowbanner col-12 position-relative d-inline-block mt-5">
-                <div class="col-3 position-absolute top-50 start-50 translate-middle">
+                <div class="col-3 position-absolute top-50 start-50 translate-middle d-flex justify-content-center">
                     <img src="images/bowVandret.png" alt="Sløjfe" class="img-fluid pt-4 mt-1">
                 </div>
             </div>
             <!--Tænd et lys i mørket billede-->
             <div class="col-12 bgimg py-5 text-center text-white d-flex flex-column justify-content-center align-items-center">
-                <h2 class="mt-3">TÆND ET LYS I MØRKET</h2>
+                <h2 class="mt-4">TÆND ET LYS I MØRKET</h2>
                 <p><i class="fa-solid fa-minus" style="color: #ffd300;"></i> støt en familie i dag</p>
                 <div class="col-6 py-5 d-flex flex-column justify-content-center align-items-center">
 
@@ -304,7 +304,6 @@ require "settings/init.php";
                     </div>
                 </div>
             </div>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
     </div>
 </div>
