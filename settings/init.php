@@ -1,5 +1,5 @@
 <?php
-require "classes/classDB.php";
+//require "classes/classDB.php";
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 
@@ -46,4 +46,4 @@ if(CONFIG_LIVE == 0) {
     $DB_PASS = "";
 }
 
-$db = new db($DB_SERVER, $DB_NAME, $DB_USER, $DB_PASS);
+//$db = new db($DB_SERVER, $DB_NAME, $DB_USER, $DB_PASS);

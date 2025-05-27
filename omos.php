@@ -64,7 +64,7 @@ require "settings/init.php";
                     </div>
                     <div class="col-12 text-center py-3 mb-3">
                         <div class="btn bg-darkgreen px-3 py-2 ">
-                            <a href="" class="text text-yellow">HJÆLP OS MED AT HJÆLPE</a>
+                            <a href="vælgPakke.php" class="text text-yellow">HJÆLP OS MED AT HJÆLPE</a>
                         </div>
                     </div>
 

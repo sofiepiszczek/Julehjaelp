@@ -60,7 +60,7 @@ require "settings/init.php";
         </div>
         <div class="col-12 py-4 mb-5 text-center">
             <div class="btn bg-darkgreen px-3 py-2">
-                <a href="" class="text text-yellow">GIV ET BIDRAG</a>
+                <a href="vælgPakke.php" class="text text-yellow">GIV ET BIDRAG</a>
             </div>
         </div>
     </div>
