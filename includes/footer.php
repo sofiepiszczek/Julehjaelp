@@ -23,7 +23,7 @@
     <div class="container pt-4">
         <div class="row">
             <div class="col">
-                <h5 class="text-center instru mb-2"><b>Dansk Folkehjælp</b></h5>
+                <h5 class="instru mb-2"><b>Dansk Folkehjælp</b></h5>
                 <div class="pb-3">
                 <p>Brovejen 4</p>
                 <p>4800 Nykøbing Falster</p>
@@ -66,7 +66,7 @@
 
             </div>
             <div class="col">
-                <h5 class="text-center instru mb-2"><b>Åbningstider</b></h5>
+                <h5 class="instru mb-2"><b>Åbningstider</b></h5>
                 <p><b>Telefontid:</b></p>
                 <p>Mandag-Torsdag:</p>
                 <p>09:00-12:00 & 13:00-16:00</p>
@@ -77,8 +77,15 @@
                 <p>09:00-12:00 & 13:00-16:00</p>
                 <p>Fredag holdes der lukket.</p>
 
+                <!--logo på stor skærm-->
+                <div class="col d-none d-lg-block">
+                    <img src="/images/StempelGreen.png" alt="lille logo" class="w-25">
+                </div>
+
                 <div class="col text-center">
-                    <img src="/images/StempelGreen.png" alt="lille logo" class="w-50">
+                    <!--logo på lille og medium skærm-->
+                    <img class="d-lg-none w-50" src="/images/StempelGreen.png" alt="lille logo">
+
                 </div>
             </div>
         </div>

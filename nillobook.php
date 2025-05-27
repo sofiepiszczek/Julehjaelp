@@ -21,8 +21,8 @@ require "settings/init.php";
     <script src="https://kit.fontawesome.com/18ba232400.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="bg-darkgreen">
-<div class="container">
+<body>
+<div class="bg-darkgreen">
     <div class="row justify-content-center align-items-center">
         <div class="col-12 z-2">
 
@@ -127,6 +127,11 @@ require "settings/init.php";
 </div>
 </div>
 
+<footer>
+    <?php
+    include 'includes/footer.php';
+    ?>
+</footer>
 
 <script src="js.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
