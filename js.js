@@ -110,23 +110,31 @@ animateCountUp("counter1", 23590, 5000);
 //tælle op og ned funktion, ved click på plus og minus//
 const plus = document.querySelector(".plus");
 const minus = document.querySelector(".minus");
-const tal = document.querySelector(".tal");
+const antal = document.querySelector(".antal");
 
 
 plus.addEventListener("click", () => {
-    const nyttal = parseInt(tal.value) + 1;
+    const nyttal = parseInt(antal.value) + 1;
 
     //limit på antal bøger der kan købes er 100//
     if(nyttal <=100){
-        tal.value = nyttal;
+        antal.value = nyttal;
+    }
+});
+minus.addEventListener("click", () => {
+    const nyttal = parseInt(antal.value) - 1;
+
+    // Minimum er 1
+    if(nyttal >= 1){
+        antal.value = nyttal;
     }
 });
 
 minus.addEventListener("click", () => {
-    const nyttal = parseInt(tal.value) - 1;
+    const nyttal = parseInt(antal.value) - 1;
 
     //limit på antal bøger der kan købes er 0//
     if(nyttal>0){
-        tal.value = nyttal;
+        antal.value = nyttal;
     }
 });

@@ -1,7 +1,5 @@
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "../node_modules/bootstrap/scss/functions";
-@import url("https://use.typekit.net/bgk1pno.css");
-@import url("https://use.typekit.net/bgk1pno.css");
 
 // 2. Include any default variable overrides here
 $link-decoration: none;
@@ -110,7 +108,7 @@ p,.instru{
 }
 
 /*404-side*/
-.tal{
+.tal404{
 	font-size: 6rem;
 }
 
