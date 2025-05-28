@@ -16,6 +16,7 @@ require "settings/init.php";
     <meta name="copyright" content="Information om copyright">
 
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.typekit.net/bgk1pno.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/18ba232400.js" crossorigin="anonymous"></script>

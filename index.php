@@ -17,6 +17,7 @@ require "settings/init.php";
     <meta name="copyright" content="Information om copyright">
 
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.typekit.net/bgk1pno.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/18ba232400.js" crossorigin="anonymous"></script>
@@ -24,7 +25,7 @@ require "settings/init.php";
 
 <body>
 <!--til top funktion m. pil-->
-<div class="container-fluid position-absolute ">
+<div class="container-fluid position-absolute">
     <i class="fa-solid fa-angles-up fa-2xl text-yellow pb-3" onclick="topFunction()" id="ToTop" title="Go to top"></i>
 </div>
 
