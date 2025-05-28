@@ -121,3 +121,12 @@ plus.addEventListener("click", () => {
         tal.value = nyttal;
     }
 });
+
+minus.addEventListener("click", () => {
+    const nyttal = parseInt(tal.value) - 1;
+
+    //limit på antal bøger der kan købes er 0//
+    if(nyttal>0){
+        tal.value = nyttal;
+    }
+});
