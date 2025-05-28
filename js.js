@@ -129,3 +129,29 @@ minus.addEventListener("click", () => {
         antal.value = nyttal;
     }
 });
+
+/*opgave med counter:*/
+const plus = document.querySelector(".plus");
+const minus = document.querySelector(".minus");
+const tal = document.querySelector(".tal");
+
+
+plus.addEventListener("click", () => {
+    const nyttal = parseInt(tal.innerHTML) + 1;
+
+    if(nyttal <=11){
+        tal.innerHTML = nyttal;
+    }
+    if(nyttal>=11){
+        alert("STOP!!!!!");
+    }
+});
+minus.addEventListener("click", () => {
+    const nyttal = parseInt(tal.innerHTML) - 1;
+    if(nyttal>0){
+        tal.innerHTML = nyttal;
+    }
+    if(nyttal<1){
+        alert("STOP!!!!!");
+    }
+});
