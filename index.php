@@ -195,7 +195,7 @@ require "settings/init.php";
                                     <div class="card text-center pt-5">
                                         <div class="card-body d-flex flex-column align-items-center">
                                             <h2 class="text-darkgreen py-3">EN FULD JULEAFTEN</h2>
-                                            <p class="text-center">1 x juletræ, 1 x julemiddag, 1 x julegave</p>
+                                            <p class="py-3">1 x juletræ, 1 x julemiddag, 1 x julegave</p>
                                             <div class="btn btn-darkgreen mx-3">
                                                 <a href="vælgPakke.php#stor-tab-pane" style="color:#ffd300">VÆLG</a>
                                             </div>
