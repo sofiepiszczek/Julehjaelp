@@ -27,7 +27,7 @@ require "settings/init.php";
 <div class="container-fluid">
     <div class="row justify-content-center align-items-center">
         <div class="col-12 ">
-            <h1 class="text-center text-white pb-3 tal">4<span class="text-red">0</span>4</h1>
+            <h1 class="text-center text-white pb-3 tal404">4<span class="text-red">0</span>4</h1>
         </div>
         <div class="col-6 col-md-4 col-lg-3 py-4 d-flex justify-content-center align-items-center">
             <p class="text-white text fs-2 text-center"><span class="text-red">HOV</span> DU ER VIST LØBET IND I EN DRILLENISSE</p>
