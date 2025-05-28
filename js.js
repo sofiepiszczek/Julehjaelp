@@ -124,15 +124,6 @@ plus.addEventListener("click", () => {
 minus.addEventListener("click", () => {
     const nyttal = parseInt(antal.value) - 1;
 
-    // Minimum er 1
-    if(nyttal >= 1){
-        antal.value = nyttal;
-    }
-});
-
-minus.addEventListener("click", () => {
-    const nyttal = parseInt(antal.value) - 1;
-
     //limit på antal bøger der kan købes er 0//
     if(nyttal>0){
         antal.value = nyttal;
