@@ -23,7 +23,7 @@ require "settings/init.php";
 </head>
 
 <body>
-<div class="bg-darkgreen">
+<div class="container-fluid bg-darkgreen">
     <div class="row justify-content-center align-items-center">
         <div class="col-12 z-2">
 
