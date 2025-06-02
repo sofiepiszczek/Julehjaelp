@@ -44,7 +44,8 @@ require "settings/init.php";
             <div><h1 class="text-yellow text-center instru">Vi har indsamlet</h1></div>
             <div><h1 id="counter" class="text-yellow text-center instru fstal">0</h1></div>
             <div><h1 class="text-yellow text-center instru">til</h1></div>
-            <div><h1 id="counter1" class="text-yellow text-center instru fstal pb-5">0</h1></div>
+            <div><h1 id="counter1" class="text-yellow text-center instru fstal ">0</h1></div>
+            <div><h1 class="text-yellow text-center instru pb-5">børnefamilier</h1></div>
 
 
             <div class="col-6 d-flex justify-content-center align-items-center pt-5">
@@ -59,7 +60,7 @@ require "settings/init.php";
     <div class="container-fluid">
         <div class="row">
             <!--citat m. typewriter-->
-            <div class="col-12 bg-darkgreen py-5 px-2 d-flex justify-content-center align-items-center">
+            <div class="col-12 bg-darkgreen py-5 px-2 d-flex justify-content-center align-items-center typewriterBanner">
                 <div class="col-12 col-md-10 col-lg-8">
                     <i class="fa-solid fa-quote-left fa-2xl py-3" style="color: #ffd300;"></i>
                     <p class="text-white text-center fs-3" id="typewriter"></p>
