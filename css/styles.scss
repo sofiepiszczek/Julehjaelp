@@ -58,7 +58,11 @@ p,.instru{
 .typewriterBanner{
 	height: 350px;
 }
-.stotHer:hover{
+.stotHer{
+	color: #ffd300;
+	text-decoration: none;
+}
+.stotHer a:hover{
 	color: #004032;
 	text-decoration: none;
 }
