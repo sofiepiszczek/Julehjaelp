@@ -30,9 +30,10 @@
                 </div>
 
                 <div class="pb-3">
-                <p>Telefon: +45 70 220 230</p>
-                <p>Mail: post@folkehjaelp.dk</p>
+                    <p>Telefon: <a href="tel:+4570220230" class="text-red">+45 70 220 230</a></p>
+                    <p>Mail: <a href="mailto:post@folkehjaelp.dk" class="text-red">post@folkehjaelp.dk</a></p>
                 </div>
+
 
                 <div class="pb-3">
                 <p>CVR: 20553413</p>
@@ -42,24 +43,17 @@
                 <div class="container d-flex justify-content-evenly">
                     <div class="row g-2">
                     <div class="col-6 pt-3">
-                        <i class="SoMeIcon fa-brands fa-square-facebook text-darkgreen "><a
-                                    href="https://www.facebook.com/profile.php?id=61568307530661"
-                                    target="_blank"></a></i>
+                        <a href="https://www.facebook.com/profile.php?id=61568307530661" target="_blank"><i class="SoMeIcon fa-brands fa-square-facebook text-darkgreen "></i></a>
                     </div>
                     <div class="col-6 pt-3">
-                        <i class="SoMeIcon fa-brands fa-square-instagram text-darkgreen"><a
-                                    href="https://www.instagram.com/dansk_folkehjaelp/" target="_blank"></a></i>
+                        <a href="https://www.instagram.com/dansk_folkehjaelp/" target="_blank"><i class="SoMeIcon fa-brands fa-square-instagram text-darkgreen"></i></a>
                     </div>
 
                     <div class="col-6 pt-2">
-                        <i class="SoMeIcon fa-brands fa-youtube text-darkgreen"><a
-                                    href="https://www.youtube.com/channel/UCuCJhyfSBQQPhOD6Ztyj_bw"
-                                    target="_blank"></a></i>
+                        <a href="https://www.youtube.com/channel/UCuCJhyfSBQQPhOD6Ztyj_bw" target="_blank"><i class="SoMeIcon fa-brands fa-youtube text-darkgreen"></i></a>
                     </div>
                     <div class="col-6 pt-2">
-                        <i class="SoMeIcon fa-brands fa-linkedin text-darkgreen"><a
-                                    href="https://www.linkedin.com/company/danskfolkehjaelp/"
-                                    target="_blank"></a></i>
+                            <a href="https://www.linkedin.com/company/danskfolkehjaelp/" target="_blank"><i class="SoMeIcon fa-brands fa-linkedin text-darkgreen"></i></a>
                     </div>
                     </div>
                 </div>
