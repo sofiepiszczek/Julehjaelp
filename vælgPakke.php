@@ -26,55 +26,64 @@ require "settings/init.php";
 
 <body class="bg-darkgreen">
 <div class="container">
-    <div class="row">
-
-    </div>
-</div>
-<div class="container">
     <div class="row justify-content-center">
+        <!-- navbar -->
         <div class="col-12">
             <?php
             include 'includes/navbar.php';
             ?>
         </div>
+        <!-- overskrift -->
         <div class="col-12 py-md-3">
             <h1 class="text-center text-white">BLIV HJERTEJÆLPER</h1>
         </div>
+        <!-- tab navigation -->
         <div class="py-2 col-md-11 mb-4">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <a href="#lille-tab-pane" class="nav-link active text text-yellow tabemnersm" id="lille-tab" data-bs-toggle="tab"
-                            data-bs-target="#lille-tab-pane" type="button" role="tab" aria-controls="lille-tab-pane"
-                            aria-selected="true">LILLE
+                    <!-- lille tab -->
+                    <a href="#lille-tab-pane" class="nav-link active text text-yellow tabemnersm" id="lille-tab"
+                       data-bs-toggle="tab"
+                       data-bs-target="#lille-tab-pane" type="button" role="tab" aria-controls="lille-tab-pane"
+                       aria-selected="true">LILLE
                     </a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a href="#mellem-tab-pane" class="nav-link text text-yellow tabemnersm" id="mellem-tab" data-bs-toggle="tab"
-                            data-bs-target="#mellem-tab-pane" type="button" role="tab" aria-controls="mellem-tab-pane"
-                            aria-selected="false">MELLEM
+                    <!-- mellem tab -->
+                    <a href="#mellem-tab-pane" class="nav-link text text-yellow tabemnersm" id="mellem-tab"
+                       data-bs-toggle="tab"
+                       data-bs-target="#mellem-tab-pane" type="button" role="tab" aria-controls="mellem-tab-pane"
+                       aria-selected="false">MELLEM
                     </a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a href="#stor-tab-pane" class="nav-link text text-yellow tabemnersm" id="stor-tab" data-bs-toggle="tab"
-                            data-bs-target="#stor-tab-pane" type="button" role="tab" aria-controls="stor-tab-pane"
-                            aria-selected="false">STOR
+                    <!-- stor tab -->
+                    <a href="#stor-tab-pane" class="nav-link text text-yellow tabemnersm" id="stor-tab"
+                       data-bs-toggle="tab"
+                       data-bs-target="#stor-tab-pane" type="button" role="tab" aria-controls="stor-tab-pane"
+                       aria-selected="false">STOR
                     </a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a href="#frit-tab-pane" class="nav-link text text-yellow tabemnersm" id="frit-tab" data-bs-toggle="tab"
-                            data-bs-target="#frit-tab-pane" type="button" role="tab" aria-controls="frit-tab-pane"
-                            aria-selected="false">PRIVAT
+                    <!-- frit beløb tab -->
+                    <a href="#frit-tab-pane" class="nav-link text text-yellow tabemnersm" id="frit-tab"
+                       data-bs-toggle="tab"
+                       data-bs-target="#frit-tab-pane" type="button" role="tab" aria-controls="frit-tab-pane"
+                       aria-selected="false">PRIVAT
                     </a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a href="#erhverv-tab-pane" class="nav-link text text-yellow tabemnersm" id="erhverv-tab" data-bs-toggle="tab"
-                            data-bs-target="#erhverv-tab-pane" type="button" role="tab" aria-controls="erhverv-tab-pane"
-                            aria-selected="false">ERHVERV
+                    <!-- erhverv tab -->
+                    <a href="#erhverv-tab-pane" class="nav-link text text-yellow tabemnersm" id="erhverv-tab"
+                       data-bs-toggle="tab"
+                       data-bs-target="#erhverv-tab-pane" type="button" role="tab" aria-controls="erhverv-tab-pane"
+                       aria-selected="false">ERHVERV
                     </a>
                 </li>
             </ul>
-
+            <!-- det skiftende indhold i tabsne -->
             <div class="tab-content " id="myTabContent">
+                <!-- lille tab -->
                 <div class="tab-pane fade show active " id="lille-tab-pane" role="tabpanel" aria-labelledby="lille-tab"
                      tabindex="0">
                     <div class="container bg-white border-white rounded-bottom-3 rounded-end-3">
@@ -179,13 +188,16 @@ require "settings/init.php";
                                     </div>
                                 </div>
                                 <div class="col-12 d-flex justify-content-center align-items-center py-3">
-                                        <button onclick="history.back()" class="btn btn-darkgreen instru text-center py-2 px-md-5 text-decoration-none text-white">TILBAGE</button>
+                                    <button onclick="history.back()"
+                                            class="btn btn-darkgreen instru text-center py-2 px-md-5 text-decoration-none text-white">
+                                        TILBAGE
+                                    </button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
+                <!-- mellem tab -->
                 <div class="tab-pane fade" id="mellem-tab-pane" role="tabpanel" aria-labelledby="mellem-tab"
                      tabindex="0">
                     <div class="container bg-white border-white rounded-3">
@@ -290,13 +302,17 @@ require "settings/init.php";
 
                             </div>
                             <div class="col-12 d-flex justify-content-center align-items-center py-3">
-                                <button onclick="history.back()" class="btn btn-darkgreen instru text-center py-2 px-md-5 text-decoration-none text-white">TILBAGE</button>
+                                <button onclick="history.back()"
+                                        class="btn btn-darkgreen instru text-center py-2 px-md-5 text-decoration-none text-white">
+                                    TILBAGE
+                                </button>
                             </div>
 
 
                         </div>
                     </div>
                 </div>
+                <!-- stor tab -->
                 <div class="tab-pane fade" id="stor-tab-pane" role="tabpanel" aria-labelledby="stor-tab" tabindex="0">
                     <div class="container bg-white border-white rounded-3">
                         <div class="row justify-content-center align-items-center">
@@ -403,21 +419,25 @@ require "settings/init.php";
 
                             </div>
                             <div class="col-12 d-flex justify-content-center align-items-center py-3">
-                                <button onclick="history.back()" class="btn btn-darkgreen instru text-center py-2 px-md-5 text-decoration-none text-white">TILBAGE</button>
+                                <button onclick="history.back()"
+                                        class="btn btn-darkgreen instru text-center py-2 px-md-5 text-decoration-none text-white">
+                                    TILBAGE
+                                </button>
                             </div>
 
 
                         </div>
                     </div>
                 </div>
+                <!-- frit beløb tab -->
                 <div class="tab-pane fade" id="frit-tab-pane" role="tabpanel" aria-labelledby="frit-tab" tabindex="0">
                     <div class="container bg-white border-white rounded-3">
                         <div class="row justify-content-center align-items-center">
-
+                            <!-- info-tekst -->
                             <div class="col-12 p-3 d-flex justify-content-center align-items-center text-darkgreen">
                                 <p class="m-0 tal text">TAK!</p>
                             </div>
-
+                            <!-- form -->
                             <div class="col-lg-8 d-flex flex-wrap justify-content-between">
                                 <div class="col-12">
                                     <label for="exampleFormControlInput1" class="form-label"></label>
@@ -517,11 +537,15 @@ require "settings/init.php";
                                 </div>
                             </div>
                             <div class="col-12 d-flex justify-content-center align-items-center py-3">
-                                <button onclick="history.back()" class="btn btn-darkgreen instru text-center py-2 px-md-5 text-decoration-none text-white">TILBAGE</button>
+                                <button onclick="history.back()"
+                                        class="btn btn-darkgreen instru text-center py-2 px-md-5 text-decoration-none text-white">
+                                    TILBAGE
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- erhverv tab -->
                 <div class="tab-pane fade" id="erhverv-tab-pane" role="tabpanel" aria-labelledby="erhverv-tab"
                      tabindex="0">
                     <div class="container bg-white border-white rounded-3">
@@ -530,7 +554,6 @@ require "settings/init.php";
                             <div class="col-12 p-3 d-flex justify-content-center align-items-center text-darkgreen">
                                 <p class="m-0 tal text">TAK!</p>
                             </div>
-
                             <!-- form -->
                             <div class="col-lg-8 d-flex flex-wrap justify-content-between">
                                 <div class="col-12">
@@ -630,7 +653,10 @@ require "settings/init.php";
                                 </div>
                             </div>
                             <div class="col-12 d-flex justify-content-center align-items-center py-3">
-                                <button onclick="history.back()" class="btn btn-darkgreen instru text-center py-2 px-md-5 text-decoration-none text-white">TILBAGE</button>
+                                <button onclick="history.back()"
+                                        class="btn btn-darkgreen instru text-center py-2 px-md-5 text-decoration-none text-white">
+                                    TILBAGE
+                                </button>
 
 
                             </div>
@@ -642,27 +668,6 @@ require "settings/init.php";
     </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-
-    const hash = window.location.hash;
-
-    if (hash) {
-        const triggerEl = document.querySelector(`a[href="${hash}"]`);
-        if (triggerEl) {
-            const tab = new bootstrap.Tab(triggerEl);
-            tab.show();
-        }
-    }
-
-    // Opdater hash i URL når der skiftes tab
-    const tabLinks = document.querySelectorAll('a[data-bs-toggle="tab"]');
-    tabLinks.forEach(link => {
-        link.addEventListener('shown.bs.tab', function (event) {
-            history.replaceState(null, null, event.target.getAttribute('href'));
-        });
-    });
-
-</script>
-
+<script src="js.js"></script>
 </body>
 </html>

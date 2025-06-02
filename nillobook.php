@@ -54,24 +54,30 @@ require "settings/init.php";
                             <div class="d-flex justify-content-center align-items-center flex-column">
                                 <!--beskrivelse af bogens indhold-->
                                 <p class="text-white">
-                                    En moderne julefortælling om en lille nisse, Nillo, der ikke har sit eget juleværksted,
-                                    men i stedet rejser rundt for at dele julens magi med de børn, som har allermest brug for
+                                    En moderne julefortælling om en lille nisse, Nillo, der ikke har sit eget
+                                    juleværksted,
+                                    men i stedet rejser rundt for at dele julens magi med de børn, som har allermest
+                                    brug for
                                     den.
-                                    Han hjælper med at finde "hjertehjælpere" – helt almindelige mennesker, der giver lidt
+                                    Han hjælper med at finde "hjertehjælpere" – helt almindelige mennesker, der giver
+                                    lidt
                                     ekstra
-                                    i julen. Sammen med en pige, Maja, der selv får julehjælp, lærer vi, at det er helt okay at
+                                    i julen. Sammen med en pige, Maja, der selv får julehjælp, lærer vi, at det er helt
+                                    okay at
                                     modtage – og at alle har noget at give.
                                 </p>
 
                                 <!--antal af bøger, bruger gerne vil købe
                                 https://getbootstrap.com/docs/5.3/forms/input-group/-->
                                 <div class="d-flex justify-content-center py-3">
-                                <button class="minus btn btn-outline-white mx-1" type="button"><i class="fa-solid fa-minus"></i>
-                                </button>
-                                <input type="text" class="antal form-control w-25 text-center" value="1"
-                                       aria-label="amount of books wanted">
-                                <button class="plus btn btn-outline-white mx-1" type="button"><i class="fa-solid fa-plus"></i>
-                                </button>
+                                    <button class="minus btn btn-outline-white mx-1" type="button"><i
+                                                class="fa-solid fa-minus"></i>
+                                    </button>
+                                    <input type="text" class="antal form-control w-25 text-center" value="1"
+                                           aria-label="amount of books wanted">
+                                    <button class="plus btn btn-outline-white mx-1" type="button"><i
+                                                class="fa-solid fa-plus"></i>
+                                    </button>
                                 </div>
 
                                 <!--CTA knapper til køb og tilbage-->
@@ -86,7 +92,8 @@ require "settings/init.php";
                                         </button>
 
                                         <!-- MODAL -->
-                                        <div class="modal fade" id="nilloModal" tabindex="-1" aria-labelledby="nilloModalLabel"
+                                        <div class="modal fade" id="nilloModal" tabindex="-1"
+                                             aria-labelledby="nilloModalLabel"
                                              aria-hidden="true">
                                             <div class="modal-dialog takmttop mx-4">
                                                 <div class="modal-content position-relative">
@@ -121,19 +128,12 @@ require "settings/init.php";
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-
-
                     </div>
-
-
-
-
+                </div>
             </div>
         </div>
     </div>
-</div>
 </div>
 
 <footer>

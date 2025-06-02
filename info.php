@@ -34,7 +34,7 @@ require "settings/init.php";
         <div class="col-12 py-3">
             <h1 class="text-darkgreen text-center">HVAD ER JULEHJÆLP?</h1>
         </div>
-        <div class="col-12 col-lg-10">
+        <div class="col-12 col-lg-6">
             <p class="text-darkgreen">
                 Julen er en af vores stærkeste fælles traditioner, men for 47.000 børn og deres forældre i Danmark 
                 kan den også være årets mest udfordrende tid. Mens mange ser frem til hygge og festligheder, 

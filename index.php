@@ -85,7 +85,7 @@ require "settings/init.php";
                         <!-- card m. donation -->
                         <div class="card text-center">
                             <div class="card-body d-flex flex-column align-items-end pe-md-4">
-                                <h2 class="text-darkgreen">ET JULETRÆ</h2>
+                                <h3 class="text-darkgreen fs-2">ET JULETRÆ</h3>
                                 <p>1 x juletræ til en børnefamilie</p>
                                 <div class="btn btn-darkgreen mx-3">
                                     <a href="vælgPakke.php#lille-tab-pane" style="color:#ffd300">VÆLG</a>
@@ -106,7 +106,7 @@ require "settings/init.php";
                         <!-- card m. donation -->
                         <div class="card text-center">
                             <div class="card-body d-flex flex-column align-items-start ps-md-4">
-                                <h2 class="text-darkgreen">EN JULEMIDDAG</h2>
+                                <h3 class="text-darkgreen fs-2">EN JULEMIDDAG</h3>
                                 <p>1 x gavekort til rema1000</p>
                                 <div class="btn btn-darkgreen mx-3">
                                     <a href="vælgPakke.php#mellem-tab-pane" style="color:#ffd300">VÆLG</a>
@@ -126,7 +126,7 @@ require "settings/init.php";
                         <!-- card m. donation -->
                         <div class="card text-center">
                             <div class="card-body d-flex flex-column align-items-end pe-md-4">
-                                <h2 class="text-darkgreen">EN FULD JULEAFTEN</h2>
+                                <h3 class="text-darkgreen fs-2">EN FULD JULEAFTEN</h3>
                                 <p class="text-end">1 x juletræ,<br> 1 x julemiddag, 1 x julegave</p>
                                 <div class="btn btn-darkgreen mx-3">
                                     <a href="vælgPakke.php#stor-tab-pane" style="color:#ffd300">VÆLG</a>
@@ -298,10 +298,12 @@ require "settings/init.php";
                 <div class="col-6 py-5 d-flex flex-column justify-content-center align-items-center">
 
                     <div class="btn btn-yellow text text-center py-2 my-3 ms-5">
-                        <a href="vælgPakke.php#frit-tab-pane" class="text-decoration-none text-darkgreen">PRIVATPERSON</a>
+                        <a href="vælgPakke.php#frit-tab-pane"
+                           class="text-decoration-none text-darkgreen">PRIVATPERSON</a>
                     </div>
                     <div class="btn btn-yellow text text-center py-2 my-3 ms-5">
-                        <a href="vælgPakke.php#erhverv-tab-pane" class="text-decoration-none text-darkgreen">VIRKSOMHED</a>
+                        <a href="vælgPakke.php#erhverv-tab-pane"
+                           class="text-decoration-none text-darkgreen">VIRKSOMHED</a>
                     </div>
                 </div>
             </div>

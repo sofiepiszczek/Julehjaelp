@@ -59,8 +59,10 @@ require "settings/init.php";
                         <p>
                             Dansk Folkehjælp blev etableret i 1907 og har i dag 28 lokalafdelinger fordelt over hele
                             Danmark med 2.000 aktive frivillige og medlemmer. Internationalt arbejder vi med
-                            kapacitetsopbygning og adgang til rent vand med vores partnere i Uganda, Tanzania, Somalia, Kenya
-                            og Zambia, vi bygger skoler i Afghanistan og arbejder med genopbygning og rehabilitering i det krigshærgerede Ukraine.
+                            kapacitetsopbygning og adgang til rent vand med vores partnere i Uganda, Tanzania, Somalia,
+                            Kenya
+                            og Zambia, vi bygger skoler i Afghanistan og arbejder med genopbygning og rehabilitering i
+                            det krigshærgerede Ukraine.
                         </p>
                     </div>
                     <div class="col-12 text-center py-3 mb-3">
@@ -68,8 +70,6 @@ require "settings/init.php";
                             <a href="vælgPakke.php" class="text text-yellow">HJÆLP OS MED AT HJÆLPE</a>
                         </div>
                     </div>
-
-
 
 
                 </div>

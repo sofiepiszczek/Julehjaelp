@@ -130,3 +130,21 @@ minus.addEventListener("click", () => {
     }
 });
 
+//deep-link til interne tabs//
+const hash = window.location.hash;
+
+if (hash) {
+    const triggerEl = document.querySelector(`a[href="${hash}"]`);
+    if (triggerEl) {
+        const tab = new bootstrap.Tab(triggerEl);
+        tab.show();
+    }
+}
+
+// Opdater hash i URL når der skiftes tab
+const tabLinks = document.querySelectorAll('a[data-bs-toggle="tab"]');
+tabLinks.forEach(link => {
+    link.addEventListener('shown.bs.tab', function (event) {
+        history.replaceState(null, null, event.target.getAttribute('href'));
+    });
+});
