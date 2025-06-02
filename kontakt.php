@@ -45,8 +45,9 @@ require "settings/init.php";
 
                 <h3 class="px-3">DANSK FOLKEHJÆLP</h3>
                 <p class="px-3">
-                    Brovejen 4<br>4800 Nykøbing Falster
-                    Telefon: +45 70220230<br>E-mail:post@folkehjaelp.dk<br><br>
+                    Brovejen 4<br>4800 Nykøbing Falster <br>
+                    Telefon: <a href="tel:+4570220230" class="text-red">+45 70 220 230</a> <br>
+                    Mail: <a href="mailto:post@folkehjaelp.dk" class="text-red">post@folkehjaelp.dk</a> <br>
                     Telefonen er åben 9.00 til 12.00 og 13.00 til 16.00 (ma-to) og 9.00 til 12.00 (fre)<br><br>
                     Kontoret er åbent 9.00 til 16.00 (ma-to).<br> Fredag er der lukket
                 </p>

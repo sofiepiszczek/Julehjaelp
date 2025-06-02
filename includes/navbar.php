@@ -14,7 +14,7 @@
                 </div>
                 <nav class="offcanvas-body text-white text-end fs-3">
                     <ul class="list-unstyled h3">
-                        <li><a href="vælgPakke.php" class="text-decoration-none p-4 text-white d-inline-block">Giv et bidrag</a></li>
+                        <li><a href="vælgPakke.php" class="text-decoration-none p-4 text-white d-inline-block">Giv et <span class="text-red">bidrag</span></a></li>
                         <li><a href="info.php" class="text-decoration-none p-4 text-white d-inline-block">Hvad er julehjælp?</a></li>
                         <li><a href="nillobook.php" class="text-decoration-none p-4 text-white d-inline-block">Årets børnebog</a></li>
                         <li><a href="omos.php" class="text-decoration-none p-4 text-white d-inline-block">Om os</a></li>
