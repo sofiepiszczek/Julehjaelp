@@ -24,10 +24,6 @@ require "settings/init.php";
 </head>
 
 <body>
-<!--til top funktion m. pil-->
-<div class="container-fluid position-absolute">
-    <i class="fa-solid fa-angles-up fa-2xl text-yellow pb-3" onclick="topFunction()" id="ToTop" title="Go to top"></i>
-</div>
 
 <!--Landingpage video-->
 <div class="container-fluid p-0">
@@ -37,7 +33,7 @@ require "settings/init.php";
         </video>
 
         <!--Navbaren-->
-        <div class="col-12 z-2">
+        <div class="col-12 z-2 d-flex justify-content-center">
             <?php
             include 'includes/navbar.php';
             ?>

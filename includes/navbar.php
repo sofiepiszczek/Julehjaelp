@@ -32,8 +32,8 @@
         <nav class="navbar px-4 px-md-0 py-3 w-100">
             <div class="container-fluid d-flex justify-content-between align-items-center w-100 px-md-0">
                 <!-- Logo -->
-                <a class="navbar-brand ps-5" href="index.php">
-                    <img src="images/LogoGulTrans.png" alt="Logo" class="img-fluid ps-3" style="max-height: 40px;">
+                <a class="navbar-brand ps-2" href="index.php">
+                    <img src="images/LogoGulTrans.png" alt="Logo" class="img-fluid" style="max-height: 40px;">
                 </a>
 
                 <!-- Navigation -->
