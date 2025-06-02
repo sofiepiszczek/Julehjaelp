@@ -50,7 +50,7 @@ require "settings/init.php";
 
             <div class="col-6 d-flex justify-content-center align-items-center pt-5">
                 <div class="btn btn-outline-yellow text text-center py-2 px-5">
-                    <a href="vælgPakke.php#mellem-tab-pane" class="text-decoration-none text-yellow">STØT HER</a>
+                    <a href="vælgPakke.php#mellem-tab-pane" class="text-decoration-none text-yellow stotHer">STØT HER</a>
                 </div>
             </div>
         </div>
