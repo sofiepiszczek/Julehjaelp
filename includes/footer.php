@@ -75,12 +75,12 @@
 
                 <!--logo på stor skærm-->
                 <div class="col d-none d-lg-block">
-                    <img src="/images/StempelGreen.png" alt="lille logo" class="w-25">
+                    <img src="images/StempelGreen.png" alt="lille logo" class="w-25">
                 </div>
 
                 <div class="col text-center">
                     <!--logo på lille og medium skærm-->
-                    <img class="d-lg-none w-50" src="/images/StempelGreen.png" alt="lille logo">
+                    <img class="d-lg-none w-50" src="images/StempelGreen.png" alt="lille logo">
 
                 </div>
             </div>
